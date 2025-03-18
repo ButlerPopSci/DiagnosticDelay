@@ -1,0 +1,3038 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10552-023-01833-5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0957-5243,%201573-7225"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dunn</foaf:surname>
+                        <foaf:givenName>Matthew R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Metwally</foaf:surname>
+                        <foaf:givenName>Eman M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vohra</foaf:surname>
+                        <foaf:givenName>Sanah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hyslop</foaf:surname>
+                        <foaf:givenName>Terry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Henderson</foaf:surname>
+                        <foaf:givenName>Louise M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reeder-Hayes</foaf:surname>
+                        <foaf:givenName>Katherine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thompson</foaf:surname>
+                        <foaf:givenName>Caroline A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lafata</foaf:surname>
+                        <foaf:givenName>Jennifer Elston</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troester</foaf:surname>
+                        <foaf:givenName>Melissa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Butler</foaf:surname>
+                        <foaf:givenName>Eboneé N.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1"/>
+        <dc:title>Understanding mechanisms of racial disparities in breast cancer: an assessment of screening and regular care in the Carolina Breast Cancer Study</dc:title>
+        <dcterms:abstract>Purpose Screening history influences stage at detection, but regular preventive care may also influence breast tumor diagnostic characteristics. Few studies have evaluated healthcare utilization (both screening and primary care) in racially diverse screening-eligible populations.
+Methods This analysis included 2,058 women age 45–74 (49% Black) from the Carolina Breast Cancer Study, a populationbased cohort of women diagnosed with invasive breast cancer between 2008 and 2013. Screening history (threshold 0.5 mammograms per year) and pre-diagnostic healthcare utilization (i.e. regular care, based on responses to “During the past ten years, who did you usually see when you were sick or needed advice about your health?”) were assessed as binary exposures. The relationship between healthcare utilization and tumor characteristics were evaluated overall and race-stratified.
+Results Among those lacking screening, Black participants had larger tumors (5 + cm) (frequency 19.6% vs 11.5%, relative frequency difference (RFD) = 8.1%, 95% CI 2.8–13.5), but race differences were attenuated among screening-adherent participants (10.2% vs 7.0%, RFD = 3.2%, 0.2–6.2). Similar trends were observed for tumor stage and mode of detection (mammogram vs lump). Among all participants, those lacking both screening and regular care had larger tumors (21% vs 8%, RR = 2.51, 1.76–3.56) and advanced (3B +) stage (19% vs 6%, RR = 3.15, 2.15–4.63) compared to the referent category (screening-adherent and regular care). Under-use of regular care and screening was more prevalent in socioeconomically disadvantaged areas of North Carolina.
+Conclusions Access to regular care is an important safeguard for earlier detection. Our data suggest that health equity interventions should prioritize both primary care and screening.</dcterms:abstract>
+        <dc:date>05/2024</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Understanding mechanisms of racial disparities in breast cancer</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10552-023-01833-5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:54:05</dcterms:dateSubmitted>
+        <bib:pages>825-837</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0957-5243,%201573-7225">
+        <prism:volume>35</prism:volume>
+        <dc:title>Cancer Causes &amp; Control</dc:title>
+        <dc:identifier>DOI 10.1007/s10552-023-01833-5</dc:identifier>
+        <prism:number>5</prism:number>
+        <dcterms:alternative>Cancer Causes Control</dcterms:alternative>
+        <dc:identifier>ISSN 0957-5243, 1573-7225</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_1">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/1/Dunn et al. - 2024 - Understanding mechanisms of racial disparities in breast cancer an assessment of screening and regu.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_17">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/17/Selove et al screening to bx and bx to tx.pdf"/>
+        <dc:title>Selove et al screening to bx and bx to tx</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_18">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/18/Zhang et al 2019.pdf"/>
+        <dc:title>Zhang et al 2019</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncr.32378">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0008-543X,%201097-0142"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reeder‐Hayes</foaf:surname>
+                        <foaf:givenName>Katherine E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mayer</foaf:surname>
+                        <foaf:givenName>Sophie E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olshan</foaf:surname>
+                        <foaf:givenName>Andrew F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wheeler</foaf:surname>
+                        <foaf:givenName>Stephanie B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carey</foaf:surname>
+                        <foaf:givenName>Lisa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tse</foaf:surname>
+                        <foaf:givenName>Chiu‐Kit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bell</foaf:surname>
+                        <foaf:givenName>Mary Elizabeth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troester</foaf:surname>
+                        <foaf:givenName>Melissa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5"/>
+        <dc:title>Race and delays in breast cancer treatment across the care continuum in the Carolina Breast Cancer Study</dc:title>
+        <dcterms:abstract>BACKGROUND: After controlling for baseline disease factors, researchers have found that black women have worse breast cancer survival, and this suggests that treatment differences may contribute to poorer outcomes. Delays in initiating and completing treatment are one proposed mechanism. METHODS: Phase 3 of the Carolina Breast Cancer Study involved a large, population-based cohort of women with incident breast cancer. For this analysis, we included black women (n = 1328) and white women (n = 1331) with stage I to III disease whose treatment included surgery with or without adjuvant therapies. A novel treatment pathway grouping was used to benchmark the treatment duration (surgery only, surgery plus chemotherapy, surgery plus radiation, or all 3). Models controlled for the treatment pathway, age, and tumor characteristics and for demographic factors related to health care access. Exploratory analyses of the association between delays and cancer recurrence were performed. RESULTS: In fully adjusted analyses, blacks had 1.73 times higher odds of treatment initiation more than 60 days after their diagnosis in comparison with whites (odds ratio [OR], 1.73; 95% confidence interval [CI], 1.04-2.90). Black race was also associated with a longer treatment duration. Blacks were also more likely to be in the highest quartile of treatment duration (OR, 1.69; 95% CI, 1.41-2.02), even after adjustments for demographic and tumor characteristics (OR, 1.31; 95% CI, 1.04-1.64). A nonsignificant trend toward a higher recurrence risk was observed for patients with delayed initiation (hazard ratio, 1.44; 95% CI, 0.89-2.33) or the longest duration (hazard ratio, 1.17; 95% CI, 0.87-1.59). CONCLUSIONS: Black women more often had delayed treatment initiation and a longer duration than whites receiving similar treatment. Interventions that target access barriers may be needed to improve timely delivery of care. Cancer 2019;125:3985-3992. © 2019 American Cancer Society.</dcterms:abstract>
+        <dc:date>2019-11-15</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncr.32378</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:57:31</dcterms:dateSubmitted>
+        <bib:pages>3985-3992</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0008-543X,%201097-0142">
+        <prism:volume>125</prism:volume>
+        <dc:title>Cancer</dc:title>
+        <dc:identifier>DOI 10.1002/cncr.32378</dc:identifier>
+        <prism:number>22</prism:number>
+        <dcterms:alternative>Cancer</dcterms:alternative>
+        <dc:identifier>ISSN 0008-543X, 1097-0142</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_5">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/5/Reeder‐Hayes et al. - 2019 - Race and delays in breast cancer treatment across the care continuum in the Carolina Breast Cancer S.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_21">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carey</foaf:surname>
+                        <foaf:givenName>Lisa A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Livasy</foaf:surname>
+                        <foaf:givenName>Chad A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dressler</foaf:surname>
+                        <foaf:givenName>Lynn G</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cowan</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Conway</foaf:surname>
+                        <foaf:givenName>Kathleen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karaca</foaf:surname>
+                        <foaf:givenName>Gamze</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troester</foaf:surname>
+                        <foaf:givenName>Melissa A</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tse</foaf:surname>
+                        <foaf:givenName>Chiu Kit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Edmiston</foaf:surname>
+                        <foaf:givenName>Sharon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Deming</foaf:surname>
+                        <foaf:givenName>Sandra L</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geradts</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheang</foaf:surname>
+                        <foaf:givenName>Maggie C U</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenName>Torsten O</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moorman</foaf:surname>
+                        <foaf:givenName>Patricia G</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Earp</foaf:surname>
+                        <foaf:givenName>H Shelton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millikan</foaf:surname>
+                        <foaf:givenName>Robert C</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:title>Race, Breast Cancer Subtypes, and Survival in the Carolina Breast Cancer Study</dc:title>
+        <dcterms:abstract>Objectives To determine population-based distributions and clinical associations for breast cancer subtypes. Design, Setting, and Participants Immunohistochemical surrogates for each subtype were applied to 496 incident cases of invasive breast cancer from the Carolina Breast Cancer Study (ascertained between May 1993 and December 1996), a populationbased, case-control study that oversampled premenopausal and African American women. Subtype definitions were as follows: luminal A (ER and/or progesterone receptor positive [PR ], HER2−), luminal B (ER and/or PR , HER2 ), basal-like (ER−, PR−, HER2−, cytokeratin 5/6 positive, and/or HER1 ), HER2 /ER− (ER−, PR−, and HER2 ), and unclassified (negative for all 5 markers). Main Outcome Measures We examined the prevalence of breast cancer subtypes within racial and menopausal subsets and determined their associations with tumor size, axillary nodal status, mitotic index, nuclear pleomorphism, combined grade, p53 mutation status, and breast cancer–specific survival.
+Results The basal-like breast cancer subtype was more prevalent among premenopausal African American women (39%) compared with postmenopausal African American women (14%) and non–African American women (16%) of any age (P .001), whereas the luminal A subtype was less prevalent (36% vs 59% and 54%, respectively). The HER2 /ER− subtype did not vary with race or menopausal status (6%-9%). Compared with luminal A, basal-like tumors had more TP53 mutations (44% vs 15%, P .001), higher mitotic index (odds ratio [OR], 11.0; 95% confidence interval [CI], 5.6-21.7), more marked nuclear pleomorphism (OR, 9.7; 95% CI, 5.3-18.0), and higher combined grade (OR, 8.3; 95% CI, 4.4-15.6). Breast cancer–specific survival differed by subtype (P .001), with shortest survival among HER2 /ER− and basal-like subtypes.
+Conclusions Basal-like breast tumors occurred at a higher prevalence among premenopausal African American patients compared with postmenopausal African American and non–African American patients in this population-based study. A higher prevalence of basal-like breast tumors and a lower prevalence of luminal A tumors could contribute to the poor prognosis of young African American women with breast cancer.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/8/Carey et al. - Race, Breast Cancer Subtypes, and Survival in the Carolina Breast Cancer Study.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://jamanetwork.com/journals/jamaoncology/fullarticle/2793713">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2374-2437"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lawson</foaf:surname>
+                        <foaf:givenName>Marissa B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bissell</foaf:surname>
+                        <foaf:givenName>Michael C. S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miglioretti</foaf:surname>
+                        <foaf:givenName>Diana L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eavey</foaf:surname>
+                        <foaf:givenName>Joanna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chapman</foaf:surname>
+                        <foaf:givenName>Christina H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mandelblatt</foaf:surname>
+                        <foaf:givenName>Jeanne S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Onega</foaf:surname>
+                        <foaf:givenName>Tracy</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Henderson</foaf:surname>
+                        <foaf:givenName>Louise M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rauscher</foaf:surname>
+                        <foaf:givenName>Garth H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kerlikowske</foaf:surname>
+                        <foaf:givenName>Karla</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sprague</foaf:surname>
+                        <foaf:givenName>Brian L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bowles</foaf:surname>
+                        <foaf:givenName>Erin J. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gard</foaf:surname>
+                        <foaf:givenName>Charlotte C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parsian</foaf:surname>
+                        <foaf:givenName>Sana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lee</foaf:surname>
+                        <foaf:givenName>Christoph I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9"/>
+        <dc:title>Multilevel Factors Associated With Time to Biopsy After Abnormal Screening Mammography Results by Race and Ethnicity</dc:title>
+        <dcterms:abstract>OBJECTIVE To evaluate individual-, neighborhood-, and health care–level factors associated with differences in time from abnormal screening to biopsy among racial and ethnic groups. DESIGN, SETTING, AND PARTICIPANTS This prospective cohort study used data from women aged 40 to 79 years who had abnormal results in screening mammograms conducted in 109 imaging facilities across 6 US states between 2009 and 2019. Data were analyzed from February 21 to November 4, 2021. EXPOSURES Individual-level factors included self-reported race and ethnicity, age, family history of breast cancer, breast density, previous breast biopsy, and time since last mammogram; neighborhood-level factors included geocoded education and income based on residential zip codes and rurality; and health care–level factors included mammogram modality, screening facility academic affiliation, and facility onsite biopsy service availability. Data were also assessed by examination year. MAIN OUTCOME AND MEASURES The main outcome was unadjusted and adjusted relative risk (RR) of no biopsy within 30, 60, and 90 days using sequential log-binomial regression models. A secondary outcome was unadjusted and adjusted median time to biopsy using accelerated failure time models.
+RESULTS A total of 45 186 women (median [IQR] age at screening, 56 [48-65] years) with 46 185 screening mammograms with abnormal results were included. Of screening mammograms with abnormal results recommended for biopsy, 15 969 (34.6%) were not resolved within 30 days, 7493 (16.2%) were not resolved within 60 days, and 5634 (12.2%) were not resolved within 90 days. Compared with White women, there was increased risk of no biopsy within 30 and 60 days for Asian (30 days: RR, 1.66; 95% CI, 1.31-2.10; 60 days: RR, 1.58; 95% CI, 1.15-2.18), Black (30 days: RR, 1.52; 95% CI, 1.30-1.78; 60 days: 1.39; 95% CI, 1.22-1.60), and Hispanic (30 days: RR, 1.50; 95% CI, 1.24-1.81; 60 days: 1.38; 95% CI, 1.11-1.71) women; however, the unadjusted risk of no biopsy within 90 days only persisted significantly for Black women (RR, 1.28; 95% CI, 1.11-1.47). Sequential adjustment for selected individual-, neighborhood-, and health care–level factors, exclusive of screening facility, did not substantially change the risk of no biopsy within 90 days for Black women (RR, 1.27; 95% CI, 1.12-1.44). After additionally adjusting for screening facility, the increased risk for Black women persisted but showed a modest decrease (RR, 1.20; 95% CI, 1.08-1.34).
+CONCLUSIONS AND RELEVANCE In this cohort study involving a diverse cohort of US women recommended for biopsy after abnormal results on screening mammography, Black women were the most likely to experience delays to diagnostic resolution after adjusting for multilevel factors. These results suggest that adjustment for multilevel factors did not entirely account for differences in time to breast biopsy, but unmeasured factors, such as systemic racism and other health care system factors, may impact timely diagnosis.</dcterms:abstract>
+        <dc:date>2022-08-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://jamanetwork.com/journals/jamaoncology/fullarticle/2793713</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:57:37</dcterms:dateSubmitted>
+        <bib:pages>1115</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2374-2437">
+        <prism:volume>8</prism:volume>
+        <dc:title>JAMA Oncology</dc:title>
+        <dc:identifier>DOI 10.1001/jamaoncol.2022.1990</dc:identifier>
+        <prism:number>8</prism:number>
+        <dcterms:alternative>JAMA Oncol</dcterms:alternative>
+        <dc:identifier>ISSN 2374-2437</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_9">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/9/Lawson et al. - 2022 - Multilevel Factors Associated With Time to Biopsy After Abnormal Screening Mammography Results by Ra.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ascopubs.org/doi/10.1200/JCO.2008.18.1370">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0732-183X,%201527-7755"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parker</foaf:surname>
+                        <foaf:givenName>Joel S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mullins</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheang</foaf:surname>
+                        <foaf:givenName>Maggie C.U.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leung</foaf:surname>
+                        <foaf:givenName>Samuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Voduc</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vickery</foaf:surname>
+                        <foaf:givenName>Tammi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davies</foaf:surname>
+                        <foaf:givenName>Sherri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fauron</foaf:surname>
+                        <foaf:givenName>Christiane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>Xiaping</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Zhiyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Quackenbush</foaf:surname>
+                        <foaf:givenName>John F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stijleman</foaf:surname>
+                        <foaf:givenName>Inge J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Palazzo</foaf:surname>
+                        <foaf:givenName>Juan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marron</foaf:surname>
+                        <foaf:givenName>J.S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nobel</foaf:surname>
+                        <foaf:givenName>Andrew B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mardis</foaf:surname>
+                        <foaf:givenName>Elaine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenName>Torsten O.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ellis</foaf:surname>
+                        <foaf:givenName>Matthew J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bernard</foaf:surname>
+                        <foaf:givenName>Philip S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11"/>
+        <dc:subject>To review</dc:subject>
+        <dc:title>Supervised Risk Predictor of Breast Cancer Based on Intrinsic Subtypes</dc:title>
+        <dcterms:abstract>Purpose To improve on current standards for breast cancer prognosis and prediction of chemotherapy beneﬁt by developing a risk model that incorporates the gene expression– based “intrinsic” subtypes luminal A, luminal B, HER2-enriched, and basal-like.
+Methods A 50-gene subtype predictor was developed using microarray and quantitative reverse transcriptase polymerase chain reaction data from 189 prototype samples. Test sets from 761 patients (no systemic therapy) were evaluated for prognosis, and 133 patients were evaluated for prediction of pathologic complete response (pCR) to a taxane and anthracycline regimen.
+Results The intrinsic subtypes as discrete entities showed prognostic signiﬁcance (P 2.26E-12) and remained signiﬁcant in multivariable analyses that incorporated standard parameters (estrogen receptor status, histologic grade, tumor size, and node status). A prognostic model for nodenegative breast cancer was built using intrinsic subtype and clinical information. The C-index estimate for the combined model (subtype and tumor size) was a signiﬁcant improvement on either the clinicopathologic model or subtype model alone. The intrinsic subtype model predicted neoadjuvant chemotherapy efﬁcacy with a negative predictive value for pCR of 97%.
+Conclusion Diagnosis by intrinsic subtype adds signiﬁcant prognostic and predictive information to standard parameters for patients with breast cancer. The prognostic properties of the continuous risk score will be of value for the management of node-negative breast cancers. The subtypes and risk score can also be used to assess the likelihood of efﬁcacy from neoadjuvant chemotherapy.</dcterms:abstract>
+        <dc:date>2009-03-10</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/10.1200/JCO.2008.18.1370</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:57:40</dcterms:dateSubmitted>
+        <bib:pages>1160-1167</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0732-183X,%201527-7755">
+        <prism:volume>27</prism:volume>
+        <dc:title>Journal of Clinical Oncology</dc:title>
+        <dc:identifier>DOI 10.1200/JCO.2008.18.1370</dc:identifier>
+        <prism:number>8</prism:number>
+        <dcterms:alternative>JCO</dcterms:alternative>
+        <dc:identifier>ISSN 0732-183X, 1527-7755</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_11">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/11/Parker et al. - 2009 - Supervised Risk Predictor of Breast Cancer Based on Intrinsic Subtypes.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://linkinghub.elsevier.com/retrieve/pii/S1546144021005494">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:15461440"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller-Kleinhenz</foaf:surname>
+                        <foaf:givenName>Jasmine M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Collin</foaf:surname>
+                        <foaf:givenName>Lindsay J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seidel</foaf:surname>
+                        <foaf:givenName>Rebecca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reddy</foaf:surname>
+                        <foaf:givenName>Arthi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nash</foaf:surname>
+                        <foaf:givenName>Rebecca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Switchenko</foaf:surname>
+                        <foaf:givenName>Jeffrey M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCullough</foaf:surname>
+                        <foaf:givenName>Lauren E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_12"/>
+        <dc:title>Racial Disparities in Diagnostic Delay Among Women With Breast Cancer</dc:title>
+        <dcterms:abstract>Sentence We observed racial disparities in delays in the diagnostic process for screen detected breast cancer (BC) malignancies and total delay in diagnosis was associated with an increase in BC mortality.</dcterms:abstract>
+        <dc:date>10/2021</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://linkinghub.elsevier.com/retrieve/pii/S1546144021005494</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:57:41</dcterms:dateSubmitted>
+        <bib:pages>1384-1393</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:15461440">
+        <prism:volume>18</prism:volume>
+        <dc:title>Journal of the American College of Radiology</dc:title>
+        <dc:identifier>DOI 10.1016/j.jacr.2021.06.019</dc:identifier>
+        <prism:number>10</prism:number>
+        <dcterms:alternative>Journal of the American College of Radiology</dcterms:alternative>
+        <dc:identifier>ISSN 15461440</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/12/Miller-Kleinhenz et al. - 2021 - Racial Disparities in Diagnostic Delay Among Women With Breast Cancer.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/10.1245/s10434-022-11720-z">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1068-9265,%201534-4681"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Collin</foaf:surname>
+                        <foaf:givenName>Lindsay J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ross-Driscoll</foaf:surname>
+                        <foaf:givenName>Katie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nash</foaf:surname>
+                        <foaf:givenName>Rebecca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller-Kleinhenz</foaf:surname>
+                        <foaf:givenName>Jasmine M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moubadder</foaf:surname>
+                        <foaf:givenName>Leah</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Osborn</foaf:surname>
+                        <foaf:givenName>Catherine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Subhedar</foaf:surname>
+                        <foaf:givenName>Preeti D.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gabram-Mendola</foaf:surname>
+                        <foaf:givenName>Sheryl G. A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Switchenko</foaf:surname>
+                        <foaf:givenName>Jeffrey M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ward</foaf:surname>
+                        <foaf:givenName>Kevin C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>McCullough</foaf:surname>
+                        <foaf:givenName>Lauren E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:title>Time to Surgical Treatment and Facility Characteristics as Potential Drivers of Racial Disparities in Breast Cancer Mortality</dc:title>
+        <dcterms:abstract>Background.—Black women are more likely to die of breast cancer than White women. This study evaluated the contribution of time to primary surgical management and surgical facility characteristics to racial disparities in breast cancer mortality among both Black and White women.</dcterms:abstract>
+        <dc:date>08/2022</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1245/s10434-022-11720-z</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:57:42</dcterms:dateSubmitted>
+        <bib:pages>4728-4738</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1068-9265,%201534-4681">
+        <prism:volume>29</prism:volume>
+        <dc:title>Annals of Surgical Oncology</dc:title>
+        <dc:identifier>DOI 10.1245/s10434-022-11720-z</dc:identifier>
+        <prism:number>8</prism:number>
+        <dcterms:alternative>Ann Surg Oncol</dcterms:alternative>
+        <dc:identifier>ISSN 1068-9265, 1534-4681</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/13/Collin et al. - 2022 - Time to Surgical Treatment and Facility Characteristics as Potential Drivers of Racial Disparities i.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10549-023-07164-y">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0167-6806,%201573-7217"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olsson</foaf:surname>
+                        <foaf:givenName>Linnea T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hamilton</foaf:surname>
+                        <foaf:givenName>Alina M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Van Alsten</foaf:surname>
+                        <foaf:givenName>Sarah C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lund</foaf:surname>
+                        <foaf:givenName>Jennifer L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stürmer</foaf:surname>
+                        <foaf:givenName>Til</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nichols</foaf:surname>
+                        <foaf:givenName>Hazel B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reeder-Hayes</foaf:surname>
+                        <foaf:givenName>Katherine E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troester</foaf:surname>
+                        <foaf:givenName>Melissa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_14"/>
+        <dc:title>Patterns of chemotherapy receipt among patients with hormone receptor-positive, HER2-negative breast cancer</dc:title>
+        <dcterms:abstract>Background Breast cancer chemotherapy utilization not only may differ by race and age, but also varies by genomic risk, tumor characteristics, and patient characteristics. Studies in demographically diverse populations with both clinical and genomic data are necessary to understand potential disparities by race and age.
+Methods In the Carolina Breast Cancer Study Phase 3 (2008–2013), chemotherapy receipt (yes/no) and regimen type were assessed in association with age and race among hormone receptor (HR) positive and HER2-negative tumors (n = 1862). Odds ratios were estimated for the association between demographic factors and chemotherapy receipt.
+Results Monotonic decreases in frequency of adjuvant chemotherapy receipt were observed over time during the study period, while neoadjuvant chemotherapy was stable. Younger age was associated with chemotherapy receipt (OR [95% CI]: 2.9 [2.4, 3.6]) and with anthracycline-based regimens (OR [95% CI]: 1.7 [1.3, 2.4]). Participants who had Medicaid (OR [95% CI]: 1.8 [1.3, 2.5]), lived in rural settings (OR [95% CI]: 1.4 [1.0, 2.0]), or were Black (OR [95% CI]: 1.5 [1.2, 1.8]) had slightly higher odds of chemotherapy, but these associations were non-significant with adjustment for stage and grade. Associations between younger age and chemotherapy receipt were strongest among women who did not receive genomic testing.
+Conclusions While race was not strongly associated with chemotherapy receipt, younger age remains a strong predictor of chemotherapy receipt, even with adjustment for clinical factors and among women who receive genomic testing.</dcterms:abstract>
+        <dc:date>02/2024</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10549-023-07164-y</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:57:44</dcterms:dateSubmitted>
+        <bib:pages>107-116</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0167-6806,%201573-7217">
+        <prism:volume>204</prism:volume>
+        <dc:title>Breast Cancer Research and Treatment</dc:title>
+        <dc:identifier>DOI 10.1007/s10549-023-07164-y</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>Breast Cancer Res Treat</dcterms:alternative>
+        <dc:identifier>ISSN 0167-6806, 1573-7217</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_14">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/14/Olsson et al. - 2024 - Patterns of chemotherapy receipt among patients with hormone receptor-positive, HER2-negative breast.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/10.1007/s10549-020-06051-0">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>187</prism:volume>
+                <dc:title>Breast Cancer Research and Treatment</dc:title>
+                <dc:identifier>DOI 10.1007/s10549-020-06051-0</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Breast Cancer Res Treat</dcterms:alternative>
+                <dc:identifier>ISSN 0167-6806, 1573-7217</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Webber</foaf:surname>
+                        <foaf:givenName>Colleen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Whitehead</foaf:surname>
+                        <foaf:givenName>Marlo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eisen</foaf:surname>
+                        <foaf:givenName>Andrea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Holloway</foaf:surname>
+                        <foaf:givenName>Claire M. B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Groome</foaf:surname>
+                        <foaf:givenName>Patti A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_15"/>
+        <dc:title>Factors associated with waiting time to breast cancer diagnosis among symptomatic breast cancer patients: a population-based study from Ontario, Canada</dc:title>
+        <dcterms:abstract>Purpose A prolonged time from first presentation to cancer diagnosis has been associated with worse disease-related outcomes. This study evaluated potential determinants of a long diagnostic interval among symptomatic breast cancer patients.
+Methods This was a population-based, cross-sectional study of symptomatic breast cancer patients diagnosed in Ontario, Canada from 2007 to 2015 using administrative health data. The diagnostic interval was defined as the time from the earliest breast cancer-related healthcare encounter before diagnosis to the diagnosis date. Potential determinants of the diagnostic interval included patient, disease and usual healthcare utilization characteristics. We used multivariable quantile regression to evaluate their relationship with the diagnostic interval. We also examined differences in diagnostic interval by the frequency of encounters within the interval.
+Results Among 45,967 symptomatic breast cancer patients, the median diagnostic interval was 41 days (interquartile range 20–92). Longer diagnostic intervals were observed in younger patients, patients with higher burden of comorbid disease, recent immigrants to Canada, and patients with higher healthcare utilization prior to their diagnostic interval. Shorter intervals were observed in patients residing in long-term care facilities, patients with late stage disease, and patients who initially presented in an emergency department. Longer diagnostic intervals were characterized by an increased number of physician visits and breast procedures.
+Conclusions The identification of groups at risk of longer diagnostic intervals provides direction for future research aimed at better understanding and improving breast cancer diagnostic pathways. Ensuring that all women receive a timely breast cancer diagnosis could improve breast cancer outcomes.</dcterms:abstract>
+        <dc:date>05/2021</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Factors associated with waiting time to breast cancer diagnosis among symptomatic breast cancer patients</z:shortTitle>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/10.1007/s10549-020-06051-0</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:57:45</dcterms:dateSubmitted>
+        <bib:pages>225-235</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_15">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/15/Webber et al. - 2021 - Factors associated with waiting time to breast cancer diagnosis among symptomatic breast cancer pati.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ascopubs.org/doi/full/10.1200/JCO.2012.41.9564">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0732-183X"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Griggs</foaf:surname>
+                        <foaf:givenName>Jennifer J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hawley</foaf:surname>
+                        <foaf:givenName>Sarah T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Graff</foaf:surname>
+                        <foaf:givenName>John J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hamilton</foaf:surname>
+                        <foaf:givenName>Ann S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jagsi</foaf:surname>
+                        <foaf:givenName>Reshma</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Janz</foaf:surname>
+                        <foaf:givenName>Nancy K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mujahid</foaf:surname>
+                        <foaf:givenName>Mahasin S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Friese</foaf:surname>
+                        <foaf:givenName>Christopher R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Salem</foaf:surname>
+                        <foaf:givenName>Barbara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Abrahamse</foaf:surname>
+                        <foaf:givenName>Paul H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Katz</foaf:surname>
+                        <foaf:givenName>Steven J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_30"/>
+        <dc:title>Factors Associated With Receipt of Breast Cancer Adjuvant Chemotherapy in a Diverse Population-Based Sample</dc:title>
+        <dcterms:abstract>Purpose
+Disparities in receipt of adjuvant chemotherapy may contribute to higher breast cancer fatality rates among black and Hispanic women compared with non-Hispanic whites. We investigated factors associated with receipt of chemotherapy in a diverse population-based sample.
+Patients and Methods
+Women diagnosed with breast cancer between August 2005 and May 2007 (N = 3,252) and reported to the Detroit, Michigan, or Los Angeles County Surveillance, Epidemiology, and End Results (SEER) registry were recruited to complete a survey. Multivariable analyses examined factors associated with chemotherapy receipt.
+Results
+The survey was sent to 3,133 patients; 2,290 completed a survey (73.1%), and 1,403 of these patients were included in the analytic sample. In multivariable models, disease characteristics were significantly associated with the likelihood of receiving chemotherapy. Low-acculturated Hispanics were more likely to receive chemotherapy than non-Hispanic whites (odds ratio [OR], 2.00; 95% CI, 1.31 to 3.04), as were high-acculturated Hispanics (OR, 1.43; 95% CI, 1.03 to 1.98). Black women were less likely to receive chemotherapy than non-Hispanic whites, but the difference was not significant (OR, 0.83; 95% CI, 0.64 to 1.08). Increasing age (even in women age &lt; 50 years) and Medicaid insurance were associated with lower rates of chemotherapy receipt.
+Conclusion
+In this population-based sample, disease characteristics were strongly associated with receipt of chemotherapy, indicating that clinical benefit guides most treatment decisions. We found no compelling evidence that black women and Hispanics receive chemotherapy at lower rates. Interventions that address chemotherapy use rates according to age and insurance status may improve quality of systemic treatment.</dcterms:abstract>
+        <dc:date>2012-09</dc:date>
+        <z:libraryCatalog>ascopubs.org (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/full/10.1200/JCO.2012.41.9564</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:59:11</dcterms:dateSubmitted>
+        <dc:description>Publisher: Wolters Kluwer</dc:description>
+        <bib:pages>3058-3064</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0732-183X">
+        <prism:volume>30</prism:volume>
+        <dc:title>Journal of Clinical Oncology</dc:title>
+        <dc:identifier>DOI 10.1200/JCO.2012.41.9564</dc:identifier>
+        <prism:number>25</prism:number>
+        <dcterms:alternative>JCO</dcterms:alternative>
+        <dc:identifier>ISSN 0732-183X</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/30/Griggs et al. - 2012 - Factors Associated With Receipt of Breast Cancer Adjuvant Chemotherapy in a Diverse Population-Based.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://europepmc.org/articles/pmc3732005?pdf=render</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 19:59:14</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_32">
+        <z:itemType>document</z:itemType>
+        <link:link rdf:resource="#item_31"/>
+        <dc:title>NCCN Breast Guidelines</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_31">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/31/breast.pdf"/>
+        <dc:title>breast.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nccn.org/professionals/physician_gls/pdf/breast.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 20:00:56</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S1875213617300049?returnurl=null&amp;referrer=null">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_34"/>
+        <dc:title>Implications of excess weight in the cardiotoxicity of anthracyclines and trastuzumab in breast cancer - ClinicalKey</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S1875213617300049?returnurl=null&amp;referrer=null</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 20:13:53</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/34/www.clinicalkey.com.html"/>
+        <dc:title>Implications of excess weight in the cardiotoxicity of anthracyclines and trastuzumab in breast cancer - ClinicalKey</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.clinicalkey.com/#!/content/playContent/1-s2.0-S1875213617300049?returnurl=null&amp;referrer=null</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 20:14:00</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_35">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1875-2128"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guenancia</foaf:surname>
+                        <foaf:givenName>Charles</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ladoire</foaf:surname>
+                        <foaf:givenName>Sylvain</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ghiringelli</foaf:surname>
+                        <foaf:givenName>François</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rochette</foaf:surname>
+                        <foaf:givenName>Luc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vergely</foaf:surname>
+                        <foaf:givenName>Catherine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cottin</foaf:surname>
+                        <foaf:givenName>Yves</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_36"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Anthracycline</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Anthracyclines</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Antibiotics, Antineoplastic</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Antineoplastic Agents, Immunological</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Body Mass Index</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Breast cancer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Breast Neoplasms</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cancer du sein</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cardiotoxicité</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cardiotoxicity</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Heart Diseases</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Obésité</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Obesity</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Overweight</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Risk Factors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Surpoids</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Trastuzumab</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Treatment Outcome</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Weight Gain</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Implications of excess weight in the cardiotoxicity of anthracyclines and trastuzumab in breast cancer</dc:title>
+        <dc:date>2017-02</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 28216265</dc:description>
+        <bib:pages>69-71</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1875-2128">
+        <prism:volume>110</prism:volume>
+        <dc:title>Archives of Cardiovascular Diseases</dc:title>
+        <dc:identifier>DOI 10.1016/j.acvd.2016.12.004</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Arch Cardiovasc Dis</dcterms:alternative>
+        <dc:identifier>ISSN 1875-2128</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_36">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/28216265</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-18 20:15:23</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pmc.ncbi.nlm.nih.gov/articles/PMC3465532/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>490</prism:volume>
+                <dc:title>Nature</dc:title>
+                <dc:identifier>DOI 10.1038/nature11412</dc:identifier>
+                <prism:number>7418</prism:number>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Network</foaf:surname>
+                        <foaf:givenName>The Cancer Genome Atlas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_40"/>
+        <link:link rdf:resource="#item_41"/>
+        <dc:title>Comprehensive molecular portraits of human breast tumors</dc:title>
+        <dcterms:abstract>We analyzed primary breast cancers by genomic DNA copy number arrays, DNA methylation, exome sequencing, mRNA arrays, microRNA sequencing and reverse phase protein arrays. Our ability to integrate information across platforms provided key insights ...</dcterms:abstract>
+        <dc:date>2012 Sep 23</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>pmc.ncbi.nlm.nih.gov</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pmc.ncbi.nlm.nih.gov/articles/PMC3465532/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-20 15:11:25</dcterms:dateSubmitted>
+        <dc:description>PMID: 23000897</dc:description>
+        <bib:pages>61</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_40">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/40/Network - 2012 - Comprehensive molecular portraits of human breast tumors.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pmc.ncbi.nlm.nih.gov/articles/PMC3465532/pdf/nihms393293.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-20 15:11:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_41">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/23000897</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-20 15:11:26</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ascopubs.org/doi/full/10.1200/JCO.2008.18.1370">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>27</prism:volume>
+                <dc:title>Journal of Clinical Oncology</dc:title>
+                <dc:identifier>DOI 10.1200/JCO.2008.18.1370</dc:identifier>
+                <prism:number>8</prism:number>
+                <dcterms:alternative>JCO</dcterms:alternative>
+                <dc:identifier>ISSN 0732-183X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Parker</foaf:surname>
+                        <foaf:givenName>Joel S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mullins</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cheang</foaf:surname>
+                        <foaf:givenName>Maggie C.U.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leung</foaf:surname>
+                        <foaf:givenName>Samuel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Voduc</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vickery</foaf:surname>
+                        <foaf:givenName>Tammi</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Davies</foaf:surname>
+                        <foaf:givenName>Sherri</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fauron</foaf:surname>
+                        <foaf:givenName>Christiane</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>He</foaf:surname>
+                        <foaf:givenName>Xiaping</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Zhiyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Quackenbush</foaf:surname>
+                        <foaf:givenName>John F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stijleman</foaf:surname>
+                        <foaf:givenName>Inge J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Palazzo</foaf:surname>
+                        <foaf:givenName>Juan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marron</foaf:surname>
+                        <foaf:givenName>J.S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nobel</foaf:surname>
+                        <foaf:givenName>Andrew B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mardis</foaf:surname>
+                        <foaf:givenName>Elaine</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nielsen</foaf:surname>
+                        <foaf:givenName>Torsten O.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ellis</foaf:surname>
+                        <foaf:givenName>Matthew J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bernard</foaf:surname>
+                        <foaf:givenName>Philip S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_45"/>
+        <dc:title>Supervised Risk Predictor of Breast Cancer Based on Intrinsic Subtypes</dc:title>
+        <dcterms:abstract>Purpose
+To improve on current standards for breast cancer prognosis and prediction of chemotherapy benefit by developing a risk model that incorporates the gene expression–based “intrinsic” subtypes luminal A, luminal B, HER2-enriched, and basal-like.
+Methods
+A 50-gene subtype predictor was developed using microarray and quantitative reverse transcriptase polymerase chain reaction data from 189 prototype samples. Test sets from 761 patients (no systemic therapy) were evaluated for prognosis, and 133 patients were evaluated for prediction of pathologic complete response (pCR) to a taxane and anthracycline regimen.
+Results
+The intrinsic subtypes as discrete entities showed prognostic significance (P = 2.26E-12) and remained significant in multivariable analyses that incorporated standard parameters (estrogen receptor status, histologic grade, tumor size, and node status). A prognostic model for node-negative breast cancer was built using intrinsic subtype and clinical information. The C-index estimate for the combined model (subtype and tumor size) was a significant improvement on either the clinicopathologic model or subtype model alone. The intrinsic subtype model predicted neoadjuvant chemotherapy efficacy with a negative predictive value for pCR of 97%.
+Conclusion
+Diagnosis by intrinsic subtype adds significant prognostic and predictive information to standard parameters for patients with breast cancer. The prognostic properties of the continuous risk score will be of value for the management of node-negative breast cancers. The subtypes and risk score can also be used to assess the likelihood of efficacy from neoadjuvant chemotherapy.</dcterms:abstract>
+        <dc:date>2009-03-10</dc:date>
+        <z:libraryCatalog>ascopubs.org (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/full/10.1200/JCO.2008.18.1370</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-20 15:11:31</dcterms:dateSubmitted>
+        <dc:description>Publisher: Wolters Kluwer</dc:description>
+        <bib:pages>1160-1167</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_45">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/45/Parker et al. - 2009 - Supervised Risk Predictor of Breast Cancer Based on Intrinsic Subtypes.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://cdr.lib.unc.edu/downloads/7m01bt72j</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-20 15:11:43</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://pubmed.ncbi.nlm.nih.gov/39013134/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2473-4284"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sc</foaf:surname>
+                        <foaf:givenName>Van Alsten</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sn</foaf:surname>
+                        <foaf:givenName>Vohra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jm</foaf:surname>
+                        <foaf:givenName>Ivory</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Am</foaf:surname>
+                        <foaf:givenName>Hamilton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>X</foaf:surname>
+                        <foaf:givenName>Gao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>El</foaf:surname>
+                        <foaf:givenName>Kirk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>En</foaf:surname>
+                        <foaf:givenName>Butler</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hs</foaf:surname>
+                        <foaf:givenName>Earp</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ke</foaf:surname>
+                        <foaf:givenName>Reeder-Hayes</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ka</foaf:surname>
+                        <foaf:givenName>Hoadley</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>La</foaf:surname>
+                        <foaf:givenName>Carey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ma</foaf:surname>
+                        <foaf:givenName>Troester</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_44"/>
+        <dc:title>Differences in 21-Gene and PAM50 Recurrence Scores in Younger and Black Women With Breast Cancer</dc:title>
+        <dcterms:abstract>ROR-P&lt;sub&gt;R&lt;/sub&gt; and the 21-gene RS&lt;sub&gt;R&lt;/sub&gt; differentially emphasize estrogen-related and proliferative biology. The emphasis of 21-gene RS on estrogen-related biology and lower endocrine therapy initiation among Black women may contribute to poorer prognostic ability in heterogeneously treated …</dcterms:abstract>
+        <dc:date>2024 Jul</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>pubmed.ncbi.nlm.nih.gov</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://pubmed.ncbi.nlm.nih.gov/39013134/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-20 15:11:40</dcterms:dateSubmitted>
+        <dc:description>Publisher: JCO Precis Oncol
+PMID: 39013134</dc:description>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2473-4284">
+        <prism:volume>8</prism:volume>
+        <dc:title>JCO precision oncology</dc:title>
+        <dc:identifier>DOI 10.1200/PO.24.00137</dc:identifier>
+        <dc:identifier>ISSN 2473-4284</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_44">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/39013134</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-02-20 15:11:40</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004500">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1549-1676"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dunn</foaf:surname>
+                        <foaf:givenName>Matthew R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Didong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Emerson</foaf:surname>
+                        <foaf:givenName>Marc A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thompson</foaf:surname>
+                        <foaf:givenName>Caroline A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nichols</foaf:surname>
+                        <foaf:givenName>Hazel B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alsten</foaf:surname>
+                        <foaf:givenName>Sarah C. Van</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roberson</foaf:surname>
+                        <foaf:givenName>Mya L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wheeler</foaf:surname>
+                        <foaf:givenName>Stephanie B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carey</foaf:surname>
+                        <foaf:givenName>Lisa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hyslop</foaf:surname>
+                        <foaf:givenName>Terry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lafata</foaf:surname>
+                        <foaf:givenName>Jennifer Elston</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troester</foaf:surname>
+                        <foaf:givenName>Melissa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_47"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Breast cancer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cancer detection and diagnosis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cancer treatment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Health insurance</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Mammography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Radiation therapy</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Socioeconomic aspects of health</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Surgical and invasive medical procedures</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A latent class assessment of healthcare access factors and disparities in breast cancer care timeliness</dc:title>
+        <dcterms:abstract>Background Delays in breast cancer diagnosis and treatment lead to worse survival and quality of life. Racial disparities in care timeliness have been reported, but few studies have examined access at multiple points along the care continuum (diagnosis, treatment initiation, treatment duration, and genomic testing). Methods and findings The Carolina Breast Cancer Study (CBCS) Phase 3 is a population-based, case-only cohort (n = 2,998, 50% black) of patients with invasive breast cancer diagnoses (2008 to 2013). We used latent class analysis (LCA) to group participants based on patterns of factors within 3 separate domains: socioeconomic status (“SES”), “care barriers,” and “care use.” These classes were evaluated in association with delayed diagnosis (approximated with stages III–IV at diagnosis), delayed treatment initiation (more than 30 days between diagnosis and first treatment), prolonged treatment duration (time between first and last treatment–by treatment modality), and receipt of OncotypeDx genomic testing (evaluated among patients with early stage, ER+ (estrogen receptor-positive), HER2- (human epidermal growth factor receptor 2-negative) disease). Associations were evaluated using adjusted linear-risk regression to estimate relative frequency differences (RFDs) with 95% confidence intervals (CIs). Delayed diagnosis models were adjusted for age; delayed and prolonged treatment models were adjusted for age and tumor size, stage, and grade at diagnosis; and OncotypeDx models were adjusted for age and tumor size and grade. Overall, 18% of CBCS participants had late stage/delayed diagnosis, 35% had delayed treatment initiation, 48% had prolonged treatment duration, and 62% were not OncotypeDx tested. Black women had higher prevalence for each outcome. We identified 3 latent classes for SES (“high SES,” “moderate SES,” and “low SES”), 2 classes for care barriers (“few barriers,” “more barriers”), and 5 classes for care use (“short travel/high preventive care,” “short travel/low preventive care,” “medium travel,” “variable travel,” and “long travel”) in which travel is defined by estimated road driving time. Low SES and more barriers to care were associated with greater frequency of delayed diagnosis (RFDadj = 5.5%, 95% CI [2.4, 8.5]; RFDadj = 6.7%, 95% CI [2.8,10.7], respectively) and prolonged treatment (RFDadj = 9.7%, 95% CI [4.8 to 14.6]; RFDadj = 7.3%, 95% CI [2.4 to 12.2], respectively). Variable travel (short travel to diagnosis but long travel to surgery) was associated with delayed treatment in the entire study population (RFDadj = 10.7%, 95% CI [2.7 to 18.8]) compared to the short travel, high use referent group. Long travel to both diagnosis and surgery was associated with delayed treatment only among black women. The main limitations of this work were inability to make inferences about causal effects of individual variables that formed the latent classes, reliance on self-reported socioeconomic and healthcare history information, and generalizability outside of North Carolina, United States of America. Conclusions Black patients face more frequent delays throughout the care continuum, likely stemming from different types of access barriers at key junctures. Improving breast cancer care access will require intervention on multiple aspects of SES and healthcare access.</dcterms:abstract>
+        <dc:date>Dec 2, 2024</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>PLoS Journals</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004500</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-07 02:21:21</dcterms:dateSubmitted>
+        <dc:description>Publisher: Public Library of Science</dc:description>
+        <bib:pages>e1004500</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1549-1676">
+        <prism:volume>21</prism:volume>
+        <dc:title>PLOS Medicine</dc:title>
+        <dc:identifier>DOI 10.1371/journal.pmed.1004500</dc:identifier>
+        <prism:number>12</prism:number>
+        <dcterms:alternative>PLOS Medicine</dcterms:alternative>
+        <dc:identifier>ISSN 1549-1676</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_47">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/47/Dunn et al. - 2024 - A latent class assessment of healthcare access factors and disparities in breast cancer care timelin.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.1004500&amp;type=printable</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-07 02:21:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_50">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2515-5091"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benefield</foaf:surname>
+                        <foaf:givenName>Halei C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reeder-Hayes</foaf:surname>
+                        <foaf:givenName>Katherine E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nichols</foaf:surname>
+                        <foaf:givenName>Hazel B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Calhoun</foaf:surname>
+                        <foaf:givenName>Benjamin C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Love</foaf:surname>
+                        <foaf:givenName>Michael I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kirk</foaf:surname>
+                        <foaf:givenName>Erin L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geradts</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoadley</foaf:surname>
+                        <foaf:givenName>Katherine A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cole</foaf:surname>
+                        <foaf:givenName>Stephen R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Earp</foaf:surname>
+                        <foaf:givenName>H. Shelton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olshan</foaf:surname>
+                        <foaf:givenName>Andrew F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carey</foaf:surname>
+                        <foaf:givenName>Lisa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troester</foaf:surname>
+                        <foaf:givenName>Melissa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_53"/>
+        <link:link rdf:resource="#item_52"/>
+        <link:link rdf:resource="#item_51"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Breast Neoplasms</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Female</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Humans</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Black People</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Confidence Intervals</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Linear Models</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Middle Aged</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Neoplasm Grading</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Neoplasm Recurrence, Local</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Proportional Hazards Models</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Receptor, ErbB-2</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Receptors, Estrogen</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Receptors, Progesterone</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>RNA, Neoplasm</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Time Factors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Tumor Burden</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>White People</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Young Adult</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Outcomes of Hormone-Receptor Positive, HER2-Negative Breast Cancers by Race and Tumor Biological Features</dc:title>
+        <dcterms:abstract>BACKGROUND: Black women have higher hormone receptor positive (HR+) breast cancer mortality than White women. Early recurrence rates differ by race, but little is known about genomic predictors of early recurrence among HR+ women.
+METHODS: Using data from the Carolina Breast Cancer Study (phase III, 2008-2013), we estimated associations between race and recurrence among nonmetastatic HR+/HER2-negative tumors, overall and by PAM50 Risk of Recurrence score, PAM50 intrinsic subtype, and tumor grade using survival curves and Cox models standardized for age and stage. Relative frequency differences (RFD) were estimated using multivariable linear regression. To assess intervention opportunities, we evaluated treatment patterns by race among patients with high-risk disease.
+RESULTS: Black women had higher recurrence risk relative to White women (crude hazard ratio = 1.81, 95% confidence interval [CI] = 1.34 to 2.46), which remained elevated after standardizing for clinical covariates (hazard ratio = 1.42, 95% CI = 1.05 to 1.93). Racial disparities were most pronounced among those with high PAM50 Risk of Recurrence score (5-year standardized recurrence risk = 18.9%, 95% CI = 8.6% to 29.1% in Black women vs 12.5%, 95% CI = 2.0% to 23.0% in White women) and high grade (5-year standardized recurrence risk = 16.6%, 95% CI = 11.7% to 21.5% in Black women vs 12.0%, 95% CI = 7.3% to 16.7% in White women). However, Black women with high-grade tumors were statistically significantly less likely to initiate endocrine therapy (RFD = -8.3%, 95% CI = -15.9% to -0.6%) and experienced treatment delay more often than White women (RFD = +9.0%, 95% CI = 0.3% to 17.8%).
+CONCLUSIONS: Differences in recurrence by race appear greatest among women with aggressive tumors and may be influenced by treatment differences. Efforts to identify causes of variation in cancer treatment are critical to reducing outcome disparities.</dcterms:abstract>
+        <dc:date>2021-02</dc:date>
+        <z:language>eng</z:language>
+        <z:libraryCatalog>PubMed</z:libraryCatalog>
+        <dc:description>PMID: 33442657
+PMCID: PMC7791616</dc:description>
+        <bib:pages>pkaa072</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2515-5091">
+        <prism:volume>5</prism:volume>
+        <dc:title>JNCI cancer spectrum</dc:title>
+        <dc:identifier>DOI 10.1093/jncics/pkaa072</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>JNCI Cancer Spectr</dcterms:alternative>
+        <dc:identifier>ISSN 2515-5091</dc:identifier>
+    </bib:Journal>
+    <bib:Memo rdf:about="#item_53">
+        <rdf:value>&lt;div data-schema-version=&quot;9&quot;&gt;&lt;p&gt;-Used CBCS 3, NON-metastatic HR+/HER2- tumors&lt;/p&gt;
+&lt;p&gt;-Looked at PAM50 RoR scores, PAM50 intrinsic subtypes, and tumor grade survival curves (Cox models standardized for age and stage)&lt;/p&gt;
+&lt;p&gt;-”Low grade” = Stage 1 or 2&lt;/p&gt;
+&lt;p&gt;-”High grade” = Stage 3&lt;/p&gt;
+&lt;p&gt;-High ROR-PT = &amp;gt;64.71&lt;/p&gt;
+&lt;p&gt;-Low or intermediate ROR-PT = &amp;lt;/=64.71&lt;/p&gt;
+&lt;p&gt;-Overall findings: there is a higher risk of recurrence in Black women compared to white women (crude)&lt;/p&gt;
+&lt;p&gt;-Disparities are less apparent but still present when adjusting for baseline tumor characteristics&lt;/p&gt;
+&lt;/div&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_52">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/52/Benefield et al. - 2021 - Outcomes of Hormone-Receptor Positive, HER2-Negative Breast Cancers by Race and Tumor Biological Fea.pdf"/>
+        <dc:title>Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/jncics/article-pdf/5/1/pkaa072/35530523/pkaa072.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 19:53:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_51">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>PubMed entry</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.ncbi.nlm.nih.gov/pubmed/33442657</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 19:53:09</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ascopubs.org/doi/10.1200/JCO.2015.62.2126">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>33</prism:volume>
+                <dc:title>Journal of Clinical Oncology</dc:title>
+                <dc:identifier>DOI 10.1200/JCO.2015.62.2126</dc:identifier>
+                <prism:number>31</prism:number>
+                <dcterms:alternative>JCO</dcterms:alternative>
+                <dc:identifier>ISSN 0732-183X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keenan</foaf:surname>
+                        <foaf:givenName>Tanya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moy</foaf:surname>
+                        <foaf:givenName>Beverly</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mroz</foaf:surname>
+                        <foaf:givenName>Edmund A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ross</foaf:surname>
+                        <foaf:givenName>Kenneth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Niemierko</foaf:surname>
+                        <foaf:givenName>Andrzej</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rocco</foaf:surname>
+                        <foaf:givenName>James W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Isakoff</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ellisen</foaf:surname>
+                        <foaf:givenName>Leif W.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bardia</foaf:surname>
+                        <foaf:givenName>Aditya</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_58"/>
+        <dc:title>Comparison of the Genomic Landscape Between Primary Breast Cancer in African American Versus White Women and the Association of Racial Differences With Tumor Recurrence</dc:title>
+        <dcterms:abstract>Purpose
+African American women are more likely to die as a result of breast cancer than white women. The influence of somatic genomic profiles on this racial disparity is unclear. We aimed to compare the racial distribution of tumor genomic characteristics and breast cancer recurrence.
+Methods
+We assessed white and African American women with stage I to III breast cancer diagnosed from 1988 to 2013 and primary tumors submitted to The Cancer Genome Atlas from 2010 to 2014. We used Cox proportional hazards models to evaluate the association of race and genetic traits with tumor recurrence.
+Results
+We investigated exome sequencing and gene expression data in 663 and 711 white and 105 and 159 African American women, respectively. African Americans had more TP53 mutations (42.9% v 27.6%; P = .003) and fewer PIK3CA mutations (20.0% v 33.9%; P = .008). Intratumor genetic heterogeneity was greater in African American than white tumors overall by 5.1 units (95% CI, 2.4 to 7.7) and within triple-negative tumors by 4.1 units (95% CI, 1.4 to 6.8). African Americans had more basal tumors by the 50-gene set predictor using the predication analysis of microarray method (PAM50; 39.0% v 18.6%; P &lt; .001) and fewer PAM50 luminal A tumors (17.0% v 34.7%; P &lt; .001). Among triple-negative subtypes, African Americans had more basal-like 1 and mesenchymal stem-like tumors. African Americans had a higher risk of tumor recurrence than whites (hazard ratio, 2.22; 95% CI, 1.05 to 4.67). Racial differences in TP53 mutation, PAM50 basal subtype, and triple-negative tumor prevalence but not intratumor genetic heterogeneity influenced the magnitude and significance of the racial disparity in tumor recurrence.
+Conclusion
+African Americans had greater intratumor genetic heterogeneity and more basal gene expression tumors, even within triple-negative breast cancer. This pattern suggests more aggressive tumor biology in African Americans than whites, which could contribute to racial disparity in breast cancer outcome.</dcterms:abstract>
+        <dc:date>2015-11</dc:date>
+        <z:libraryCatalog>ascopubs-org.libproxy.lib.unc.edu (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/10.1200/JCO.2015.62.2126</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 20:24:52</dcterms:dateSubmitted>
+        <dc:description>Publisher: Wolters Kluwer</dc:description>
+        <bib:pages>3621-3627</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_58">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/58/Keenan et al. - 2015 - Comparison of the Genomic Landscape Between Primary Breast Cancer in African American Versus White W.pdf"/>
+        <dc:title>PubMed Central Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://pmc.ncbi.nlm.nih.gov/articles/PMC4979243/pdf/zlj3621.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 20:25:05</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://dx.doi.org/10.1093/jnci/djx135">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0027-8874"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Troester</foaf:surname>
+                        <foaf:givenName>Melissa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sun</foaf:surname>
+                        <foaf:givenName>Xuezheng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Allott</foaf:surname>
+                        <foaf:givenName>Emma H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geradts</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cohen</foaf:surname>
+                        <foaf:givenName>Stephanie M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tse</foaf:surname>
+                        <foaf:givenName>Chiu-Kit</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kirk</foaf:surname>
+                        <foaf:givenName>Erin L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thorne</foaf:surname>
+                        <foaf:givenName>Leigh B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mathews</foaf:surname>
+                        <foaf:givenName>Michelle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Yan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hu</foaf:surname>
+                        <foaf:givenName>Zhiyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Robinson</foaf:surname>
+                        <foaf:givenName>Whitney R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hoadley</foaf:surname>
+                        <foaf:givenName>Katherine A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olopade</foaf:surname>
+                        <foaf:givenName>Olufunmilayo I.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Reeder-Hayes</foaf:surname>
+                        <foaf:givenName>Katherine E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Earp</foaf:surname>
+                        <foaf:givenName>H. Shelton</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Olshan</foaf:surname>
+                        <foaf:givenName>Andrew F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carey</foaf:surname>
+                        <foaf:givenName>Lisa A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_59"/>
+        <dc:title>Racial Differences in PAM50 Subtypes in the Carolina Breast Cancer Study</dc:title>
+        <dcterms:abstract>AbstractBackground. African American breast cancer patients have lower frequency of hormone receptor–positive (HR+)/human epidermal growth factor receptor</dcterms:abstract>
+        <dc:date>2018/02/01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>academic.oup.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://dx.doi.org/10.1093/jnci/djx135</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 20:25:04</dcterms:dateSubmitted>
+        <dc:description>Publisher: Oxford Academic</dc:description>
+        <bib:pages>176-182</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0027-8874">
+        <prism:volume>110</prism:volume>
+        <dc:title>JNCI: Journal of the National Cancer Institute</dc:title>
+        <dc:identifier>DOI 10.1093/jnci/djx135</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>J Natl Cancer Inst</dcterms:alternative>
+        <dc:identifier>ISSN 0027-8874</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_59">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/59/Troester et al. - 2018 - Racial Differences in PAM50 Subtypes in the Carolina Breast Cancer Study.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://academic.oup.com/jnci/article-pdf/110/2/176/25422487/djx135.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 20:25:06</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://link.springer.com/article/10.1007/s10549-014-2899-5">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1573-7217"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kroenke</foaf:surname>
+                        <foaf:givenName>Candyce H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sweeney</foaf:surname>
+                        <foaf:givenName>Carol</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kwan</foaf:surname>
+                        <foaf:givenName>Marilyn L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Quesenberry</foaf:surname>
+                        <foaf:givenName>Charles P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Weltzien</foaf:surname>
+                        <foaf:givenName>Erin K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Habel</foaf:surname>
+                        <foaf:givenName>Laurel A.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Castillo</foaf:surname>
+                        <foaf:givenName>Adrienne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bernard</foaf:surname>
+                        <foaf:givenName>Phillip S.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Factor</foaf:surname>
+                        <foaf:givenName>Rachel E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kushi</foaf:surname>
+                        <foaf:givenName>Lawrence H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Caan</foaf:surname>
+                        <foaf:givenName>Bette J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_61"/>
+        <dc:title>Race and breast cancer survival by intrinsic subtype based on PAM50 gene expression</dc:title>
+        <dcterms:abstract>To evaluate whether differences in PAM50 breast cancer (BC) intrinsic (Luminal A, Luminal B, Basal-like, and HER2-enriched) subtypes help explain the Black–White BC survival disparity. Utilizing a stratified case-cohort design, this study included 1,635 women from the Pathways and Life After Cancer Epidemiology cohorts, selecting women with tumors based upon IHC classification, recurrences, and deaths.One millimeter punches were obtained from tumor tissue, and expression of the PAM50 genes for molecular subtype was determined by RT-qPCR of extracted RNA. Cox proportional hazards models were used to analyze associations between race and BC outcomes, adjusted for PAM50 BC subtype. All tests of statistical significance were two-sided. Black women had a higher prevalence of the Basal-like BC subtype. Adjusted for potential confounding variables and disease characteristics at diagnosis, Black women had higher risks of recurrence (HR 1.65, 95 % CI 1.06–2.57) and breast cancer-specific mortality (HR 1.71, 95 % CI 1.02–2.86) than White women, but adjusting further for subtype did not attenuate survival disparities. By contrast, Hispanic women had a lower risk of recurrence (HR 0.54, 95 % CI 0.30–0.96) than Whites. Among those with the Basal-like subtype, Black women had a similar recurrence risk as women in other race groups but a higher recurrence risk for all other subtypes. Hispanic women had a lower recurrence risk within each subtype, though associations were not significant, given limited power. Although Black women had a higher risk of the Basal-like subtype, which has poor prognosis, this did not explain the Black–White BC survival disparity.</dcterms:abstract>
+        <dc:date>2014/04/01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>link-springer-com.libproxy.lib.unc.edu</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/article/10.1007/s10549-014-2899-5</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 20:25:25</dcterms:dateSubmitted>
+        <dc:rights>2014 Springer Science+Business Media New York</dc:rights>
+        <dc:description>Company: Springer
+Distributor: Springer
+Institution: Springer
+Label: Springer
+Number: 3
+Publisher: Springer US</dc:description>
+        <bib:pages>689-699</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1573-7217">
+        <prism:volume>144</prism:volume>
+        <dc:title>Breast Cancer Research and Treatment</dc:title>
+        <dc:identifier>DOI 10.1007/s10549-014-2899-5</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>Breast Cancer Res Treat</dcterms:alternative>
+        <dc:identifier>ISSN 1573-7217</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_61">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/61/Kroenke et al. - 2014 - Race and breast cancer survival by intrinsic subtype based on PAM50 gene expression.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007/s10549-014-2899-5.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 20:25:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ascopubs.org/doi/10.1200/JCO.2012.46.1558">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>31</prism:volume>
+                <dc:title>Journal of Clinical Oncology</dc:title>
+                <dc:identifier>DOI 10.1200/JCO.2012.46.1558</dc:identifier>
+                <prism:number>22</prism:number>
+                <dcterms:alternative>JCO</dcterms:alternative>
+                <dc:identifier>ISSN 0732-183X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dowsett</foaf:surname>
+                        <foaf:givenName>Mitch</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sestak</foaf:surname>
+                        <foaf:givenName>Ivana</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lopez-Knowles</foaf:surname>
+                        <foaf:givenName>Elena</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sidhu</foaf:surname>
+                        <foaf:givenName>Kalvinder</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dunbier</foaf:surname>
+                        <foaf:givenName>Anita K.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cowens</foaf:surname>
+                        <foaf:givenName>J. Wayne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ferree</foaf:surname>
+                        <foaf:givenName>Sean</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Storhoff</foaf:surname>
+                        <foaf:givenName>James</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schaper</foaf:surname>
+                        <foaf:givenName>Carl</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cuzick</foaf:surname>
+                        <foaf:givenName>Jack</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Comparison of PAM50 Risk of Recurrence Score With Oncotype DX and IHC4 for Predicting Risk of Distant Recurrence After Endocrine Therapy</dc:title>
+        <dcterms:abstract>Purpose
+Risk of distant recurrence (DR) among women with estrogen receptor (ER) –positive early breast cancer is the major determinant of recommendations for or against chemotherapy. It is frequently estimated using the Oncotype DX recurrence score (RS). The PAM50 risk of recurrence (ROR) score provides an alternative approach, which also identifies intrinsic subtypes.
+Patients and Methods
+mRNA from 1,017 patients with ER-positive primary breast cancer treated with anastrozole or tamoxifen in the ATAC trial was assessed for ROR using the NanoString nCounter. Likelihood ratio (LR) tests and concordance indices (c indices) were used to assess the prognostic information provided beyond that of a clinical treatment score (CTS) by RS, ROR, or IHC4, an index of DR risk derived from immunohistochemical assessment of ER, progesterone receptor, human epidermal growth factor receptor 2 (HER2), and Ki67.
+Results
+ROR added significant prognostic information beyond CTS in all patients (Δ LR-χ2 = 33.9; P &lt; .001) and in all four subgroups: node negative, node positive, HER2 negative, and HER2 negative/node negative; more information was added by ROR than by RS. C indices in the HER2-negative/node-negative subgroup were 0.73, 0.76, and 0.78 for CTS, CTS plus RS, and CTS plus ROR, respectively. More patients were scored as high risk and fewer as intermediate risk by ROR than by RS. Relatively similar prognostic information was added by ROR and IHC4 in all patients but more by ROR in the HER2-negative/node-negative group.
+Conclusion
+ROR provides more prognostic information in endocrine-treated patients with ER-positive, node-negative disease than RS, with better differentiation of intermediate- and higher-risk groups.</dcterms:abstract>
+        <dc:date>2013-08</dc:date>
+        <z:libraryCatalog>ascopubs.org (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/10.1200/JCO.2012.46.1558</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-12 20:27:27</dcterms:dateSubmitted>
+        <dc:description>Publisher: Wolters Kluwer</dc:description>
+        <bib:pages>2783-2790</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="https://doi.org/10.1007/BF00694745">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>35</prism:volume>
+                <dc:title>Breast Cancer Research and Treatment</dc:title>
+                <dc:identifier>DOI 10.1007/BF00694745</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>Breast Cancer Res Tr</dcterms:alternative>
+                <dc:identifier>ISSN 1573-7217</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Newman</foaf:surname>
+                        <foaf:givenName>Beth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moorman</foaf:surname>
+                        <foaf:givenName>Patricia G.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millikan</foaf:surname>
+                        <foaf:givenName>Robert</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Qaqish</foaf:surname>
+                        <foaf:givenName>Bahjat F.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geradts</foaf:surname>
+                        <foaf:givenName>Joseph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aldrich</foaf:surname>
+                        <foaf:givenName>Tim E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Edison T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_64"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>breast cancer etiology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>gene-environment interactions</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>genetic susceptibility</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>molecular epidemiology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>risk factors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The Carolina Breast Cancer Study: integrating population-based epidemiology and molecular biology</dc:title>
+        <dcterms:abstract>The integration of epidemiology and molecular biology provides a new strategy to identify additional risk factors for breast cancer and to better understand the role played by traditionally recognized risk factors. The Carolina Breast Cancer Study (CBCS) is a population-based, case-control study designed to identify causes of breast cancer among Caucasian and African-American women who are residents of a 24-county area of central and eastern North Carolina. Information on established and potential breast cancer risk factors is obtained by personal interviews. Blood samples are collected from all consenting participants. Medical record documentation and paraffin-embedded tumor specimens are obtained for all breast cancer patients. DNA from tumor tissue is tested for a variety of molecular alterations characteristic of breast cancer. Germline DNA from blood lymphocytes is evaluated for presence of alleles increasing susceptibility to breast cancer. Statistical analyses evaluate gene-environment interaction by exploring the associations between environmental/behavioral factors and breast cancer in relation to specific molecular alterations (germline and tumor). Results will help identify high-risk women, clarify causal pathways, and hopefully contribute to the prevention of breast cancer.</dcterms:abstract>
+        <dc:date>1995-01-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>The Carolina Breast Cancer Study</z:shortTitle>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/BF00694745</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 12:48:44</dcterms:dateSubmitted>
+        <bib:pages>51-60</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_64">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/64/Newman et al. - 1995 - The Carolina Breast Cancer Study integrating population-based epidemiology and molecular biology.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://link.springer.com/content/pdf/10.1007%2FBF00694745.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 12:48:46</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.proquest.com/docview/204480346/abstract/AC095F5596FE4912PQ/1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00280836"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sorlie</foaf:surname>
+                        <foaf:givenName>Therese</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eisen</foaf:surname>
+                        <foaf:givenName>Michael B.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>van de Rijn</foaf:surname>
+                        <foaf:givenName>Matt</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>al</foaf:surname>
+                        <foaf:givenName>et</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_66"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Breast cancer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Biodiversity</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Environmental</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Genes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Molecular biology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Natural history</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Neoplasm</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Tumors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Molecular portraits of human breast tumours</dc:title>
+        <dcterms:abstract>Human breast tumours are diverse in their natural history and in their responsiveness to treatments. Variation in transcriptional programs accounts for much of the biological diversity of human cells and tumours.</dcterms:abstract>
+        <dc:date>Aug 17, 2000</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ProQuest</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.proquest.com/docview/204480346/abstract/AC095F5596FE4912PQ/1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 12:54:30</dcterms:dateSubmitted>
+        <dc:rights>Copyright Macmillan Journals Ltd. Aug 17, 2000</dc:rights>
+        <dc:description>Num Pages: 747-52
+Place: London, United States
+Publisher: Nature Publishing Group</dc:description>
+        <bib:pages>747-52</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00280836">
+        <prism:volume>406</prism:volume>
+        <dc:title>Nature</dc:title>
+        <dc:identifier>DOI 10.1038/35021093</dc:identifier>
+        <prism:number>6797</prism:number>
+        <dc:identifier>ISSN 00280836</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_66">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/66/Perou et al. - 2000 - Molecular portraits of human breast tumours.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://media.proquest.com/media/hms/OBJ/1glNS?cit%3Aauth=Perou%2C+Charles+M%3BSorlie%2C+Therese%3BEisen%2C+Michael+B%3Bvan+de+Rijn%2C+Matt%3Bet+al&amp;cit%3Atitle=Molecular+portraits+of+human+breast+tumours&amp;cit%3Apub=Nature&amp;cit%3Avol=406&amp;cit%3Aiss=6797&amp;cit%3Apg=747&amp;cit%3Adate=Aug+17%2C+2000&amp;ic=true&amp;cit%3Aprod=ProQuest&amp;_a=ChgyMDI1MDMxMzEyNTM0ODAwMzo5OTU1OTISBTk2Njg2GgpPTkVfU0VBUkNIIg8xNjIuMjA2LjIzMC4xMDcqBTQwNTY5MgkyMDQ0ODAzNDY6DURvY3VtZW50SW1hZ2VCATBSBk9ubGluZVoCRlRiA1BGVGoKMjAwMC8wOC8xN3IKMjAwMC8wOC8xN3oAggExUC0xMDA3MDY3LTc5ODAtQ1VTVE9NRVItMTAwMDAyNTUvMTAwMDAxNTUtNDcwOTQ0MJIBBk9ubGluZcoBfU1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4w0gESU2Nob2xhcmx5IEpvdXJuYWxzmgIHUHJlUGFpZKoCK09TOkVNUy1NZWRpYUxpbmtzU2VydmljZS1nZXRNZWRpYVVybEZvckl0ZW3KAg9BcnRpY2xlfEZlYXR1cmXSAgFZ8gIA%2BgIBToIDA1dlYooDHENJRDoyMDI1MDMxMzEyNTM0ODAwMzo1MDQzMTQ%3D&amp;_s=VrMjX5CEhy8j%2B1XTxUzuU%2Bi9wd0%3D</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 12:54:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.proquest.com/docview/921583142/abstract/FEEF97C82BD04707PQ/1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:17594774"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Prat</foaf:surname>
+                        <foaf:givenName>Aleix</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ellis</foaf:surname>
+                        <foaf:givenName>Matthew J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_68"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Breast cancer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Biomarker</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cluster analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Oncology</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Practical implications of gene-expression-based assays for breast oncologists</dc:title>
+        <dcterms:abstract>Gene-expression profiling has had a considerable impact on our understanding of breast cancer biology, and more recently on clinical care. Two statistical approaches underlie these advancements. Supervised analyses have led to the development of gene-expression signatures designed to predict survival and/or treatment response, which has resulted in the development of new clinical assays. Unsupervised analyses have identified numerous biological signatures including signatures of cell type of origin, signaling pathways, and of cellular proliferation. Included within these biological signatures are the molecular subtypes known as the 'intrinsic' subtypes of breast cancer. This classification has expanded our appreciation of the heterogeneity of breast cancer and has provided a way to sub-classify the disease in a manner that might have clinical utility. In this Review, we discuss the clinical utility of gene-expression-based assays and their technical potential as clinical tools vis-a-vis the performance of breast cancer biomarkers that are the current standard of care.</dcterms:abstract>
+        <dc:date>Jan 2012</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ProQuest</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.proquest.com/docview/921583142/abstract/FEEF97C82BD04707PQ/1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 12:59:10</dcterms:dateSubmitted>
+        <dc:rights>Copyright Nature Publishing Group Jan 2012</dc:rights>
+        <dc:description>Num Pages: 10
+Place: London, United States
+Publisher: Nature Publishing Group</dc:description>
+        <bib:pages>48-57</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:17594774">
+        <prism:volume>9</prism:volume>
+        <dc:title>Nature Reviews. Clinical Oncology</dc:title>
+        <dc:identifier>DOI 10.1038/nrclinonc.2011.178</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 17594774</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_68">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/68/Prat et al. - 2012 - Practical implications of gene-expression-based assays for breast oncologists.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://media.proquest.com/media/hms/OBJ/eWeRU?cit%3Aauth=Prat%2C+Aleix%3BEllis%2C+Matthew+J%3BPerou%2C+Charles+M&amp;cit%3Atitle=Practical+implications+of+gene-expression-based+assays+for+breast+oncologists&amp;cit%3Apub=Nature+Reviews.+Clinical+Oncology&amp;cit%3Avol=9&amp;cit%3Aiss=1&amp;cit%3Apg=48&amp;cit%3Adate=Jan+2012&amp;ic=true&amp;cit%3Aprod=ProQuest+Central&amp;_a=ChgyMDI1MDMxMzEyNTY1NDg0Nzo4OTIxNjQSBTk2Njg2GgpPTkVfU0VBUkNIIg8xNjIuMjA2LjIzMC4xMDcqBjUzNjMwMzIJOTIxNTgzMTQyOg1Eb2N1bWVudEltYWdlQgEwUgZPbmxpbmVaAkZUYgNQRlRqCjIwMTIvMDEvMDFyCjIwMTIvMDEvMzF6AIIBMVAtMTAwNzA2Ny03OTgwLUNVU1RPTUVSLTEwMDAwMjU1LzEwMDAwMTU1LTQ3MDk0NDCSAQZPbmxpbmXKAX1Nb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTM0LjAuMC4wIFNhZmFyaS81MzcuMzYgRWRnLzEzNC4wLjAuMNIBElNjaG9sYXJseSBKb3VybmFsc5oCB1ByZVBhaWSqAitPUzpFTVMtTWVkaWFMaW5rc1NlcnZpY2UtZ2V0TWVkaWFVcmxGb3JJdGVtygIPQXJ0aWNsZXxGZWF0dXJl0gIBWfICAPoCAU6CAwNXZWKKAxxDSUQ6MjAyNTAzMTMxMjUzNDgwMDM6NTA0MzE0&amp;_s=lSojxE9TH8pHWUshWQ9zUy52UHU%3D</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 12:59:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.proquest.com/docview/2299146734/abstract/547909B2E987446APQ/1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:15747891"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Prat</foaf:surname>
+                        <foaf:givenName>Aleix</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Perou</foaf:surname>
+                        <foaf:givenName>Charles M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_70"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Breast cancer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Tumors</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cancer</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cancer therapies</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Cell adhesion &amp; migration</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Chemotherapy</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Claudin-low</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ErbB-2 protein</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Gene expression</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Hypotheses</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Medical prognosis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Medical research</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Mesenchymal stem cell</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Mesenchyme</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Stem cell</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Stem cells</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Subtypes</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Deconstructing the molecular portraits of breast cancer</dc:title>
+        <dcterms:abstract>Breast cancer is a heterogeneous disease in terms of histology, therapeutic response, dissemination patterns to distant sites, and patient outcomes. Global gene expression analyses using high-throughput technologies have helped to explain much of this heterogeneity and provided important new classifications of cancer patients. In the last decade, genomic studies have established five breast cancer intrinsic subtypes (Luminal A, Luminal B, HER2-enriched, Claudin-low, Basal-like) and a Normal Breast-like group. In this review, we dissect the most recent data on this genomic classification of breast cancer with a special focus on the Claudin-low subtype, which appears enriched for mesenchymal and stem cell features. In addition, we discuss how the combination of standard clinical-pathological markers with the information provided by these genomic entities might help further understand the biological complexity of this disease, increase the efficacy of current and novel therapies, and ultimately improve outcomes for breast cancer patients.</dcterms:abstract>
+        <dc:date>Feb 2011</dc:date>
+        <z:language>English</z:language>
+        <z:libraryCatalog>ProQuest</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.proquest.com/docview/2299146734/abstract/547909B2E987446APQ/1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 13:01:18</dcterms:dateSubmitted>
+        <dc:rights>© 2011. This work is published under http://creativecommons.org/licenses/by-nc-nd/4.0/ (the “License”).  Notwithstanding the ProQuest Terms and Conditions, you may use this content in accordance with the terms of the License.</dc:rights>
+        <dc:description>Num Pages: 5-23
+Place: Hoboken, United States
+Publisher: John Wiley &amp; Sons, Inc.
+Section: Review</dc:description>
+        <bib:pages>5-23</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:15747891">
+        <prism:volume>5</prism:volume>
+        <dc:title>Molecular Oncology</dc:title>
+        <dc:identifier>DOI 10.1016/j.molonc.2010.11.003</dc:identifier>
+        <prism:number>1</prism:number>
+        <dc:identifier>ISSN 15747891</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_70">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/70/Prat and Perou - 2011 - Deconstructing the molecular portraits of breast cancer.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://media.proquest.com/media/hms/PFT/1/FcRzY?cit%3Aauth=Prat%2C+Aleix%3BPerou%2C+Charles+M&amp;cit%3Atitle=Deconstructing+the+molecular+portraits+of+breast+cancer&amp;cit%3Apub=Molecular+Oncology&amp;cit%3Avol=5&amp;cit%3Aiss=1&amp;cit%3Apg=5&amp;cit%3Adate=Feb+2011&amp;ic=true&amp;cit%3Aprod=ProQuest+Central&amp;_a=ChgyMDI1MDMxMzEyNTk1NTkxOToyMjkyMDcSBTk2Njg2GgpPTkVfU0VBUkNIIg8xNjIuMjA2LjIzMC4xMDcqBzQzNzAyOTgyCjIyOTkxNDY3MzQ6DURvY3VtZW50SW1hZ2VCATBSBk9ubGluZVoCRlRiA1BGVGoKMjAxMS8wMi8wMXIKMjAxMS8wMi8yOHoAggEoUC0xMDA3ODU2LTc5ODAtQ1VTVE9NRVItMTAwMDAyNTUtNTc2ODc4N5IBBk9ubGluZcoBfU1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4w0gESU2Nob2xhcmx5IEpvdXJuYWxzmgIHUHJlUGFpZKoCK09TOkVNUy1NZWRpYUxpbmtzU2VydmljZS1nZXRNZWRpYVVybEZvckl0ZW3KAg9BcnRpY2xlfEZlYXR1cmXSAgFZ8gIA%2BgIBWYIDA1dlYooDHENJRDoyMDI1MDMxMzEyNTM0ODAwMzo1MDQzMTQ%3D&amp;_s=5dpwlQi5LTy7TUdoQu%2BIHxYxIUs%3D</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 13:01:19</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ascopubs.org/doi/10.1200/JCO.2005.04.7985">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>24</prism:volume>
+                <dc:title>Journal of Clinical Oncology</dc:title>
+                <dc:identifier>DOI 10.1200/JCO.2005.04.7985</dc:identifier>
+                <prism:number>23</prism:number>
+                <dcterms:alternative>JCO</dcterms:alternative>
+                <dc:identifier>ISSN 0732-183X</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paik</foaf:surname>
+                        <foaf:givenName>Soonmyung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tang</foaf:surname>
+                        <foaf:givenName>Gong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shak</foaf:surname>
+                        <foaf:givenName>Steven</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Chungyeul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baker</foaf:surname>
+                        <foaf:givenName>Joffre</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kim</foaf:surname>
+                        <foaf:givenName>Wanseop</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cronin</foaf:surname>
+                        <foaf:givenName>Maureen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baehner</foaf:surname>
+                        <foaf:givenName>Frederick L.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Watson</foaf:surname>
+                        <foaf:givenName>Drew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bryant</foaf:surname>
+                        <foaf:givenName>John</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Costantino</foaf:surname>
+                        <foaf:givenName>Joseph P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Geyer</foaf:surname>
+                        <foaf:givenName>Charles E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wickerham</foaf:surname>
+                        <foaf:givenName>D. Lawrence</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wolmark</foaf:surname>
+                        <foaf:givenName>Norman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:title>Gene Expression and Benefit of Chemotherapy in Women With Node-Negative, Estrogen Receptor–Positive Breast Cancer</dc:title>
+        <dcterms:abstract>Purpose
+The 21-gene recurrence score (RS) assay quantifies the likelihood of distant recurrence in women with estrogen receptor–positive, lymph node–negative breast cancer treated with adjuvant tamoxifen. The relationship between the RS and chemotherapy benefit is not known.
+Methods
+The RS was measured in tumors from the tamoxifen-treated and tamoxifen plus chemotherapy–treated patients in the National Surgical Adjuvant Breast and Bowel Project (NSABP) B20 trial. Cox proportional hazards models were utilized to test for interaction between chemotherapy treatment and the RS.
+Results
+A total of 651 patients were assessable (227 randomly assigned to tamoxifen and 424 randomly assigned to tamoxifen plus chemotherapy). The test for interaction between chemotherapy treatment and RS was statistically significant (P = .038). Patients with high-RS (≥ 31) tumors (ie, high risk of recurrence) had a large benefit from chemotherapy (relative risk, 0.26; 95% CI, 0.13 to 0.53; absolute decrease in 10-year distant recurrence rate: mean, 27.6%; SE, 8.0%). Patients with low-RS (&lt; 18) tumors derived minimal, if any, benefit from chemotherapy treatment (relative risk, 1.31; 95% CI, 0.46 to 3.78; absolute decrease in distant recurrence rate at 10 years: mean, −1.1%; SE, 2.2%). Patients with intermediate-RS tumors did not appear to have a large benefit, but the uncertainty in the estimate can not exclude a clinically important benefit.
+Conclusion
+The RS assay not only quantifies the likelihood of breast cancer recurrence in women with node-negative, estrogen receptor–positive breast cancer, but also predicts the magnitude of chemotherapy benefit.</dcterms:abstract>
+        <dc:date>2006-08-10</dc:date>
+        <z:libraryCatalog>ascopubs-org.libproxy.lib.unc.edu (Atypon)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/10.1200/JCO.2005.04.7985</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 13:11:43</dcterms:dateSubmitted>
+        <dc:description>Publisher: Wolters Kluwer</dc:description>
+        <bib:pages>3726-3734</bib:pages>
+    </bib:Article>
+    <bib:Article rdf:about="#item_74">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Journal of Clinical Oncology</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_75"/>
+        <dc:title>Gene Expression and Benefit of Chemotherapy in Women With Node-Negative, Estrogen Receptor–Positive Breast Cancer</dc:title>
+        <dcterms:abstract>Purpose The 21-gene recurrence score (RS) assay quantifies the likelihood of distant recurrence
+in women with estrogen receptor–positive, lymph node–negative breast cancer treated
+with adjuvant tamoxifen. The relationship between the RS and chemotherapy ...</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>ascopubs-org.libproxy.lib.unc.edu</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/10.1200/JCO.2005.04.7985</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 13:11:54</dcterms:dateSubmitted>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_75">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/75/JCO.2005.04.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ascopubs.org/doi/pdf/10.1200/JCO.2005.04.7985</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-03-13 13:12:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_2">
+        <dc:title>Anthracyclines and BMI CBCS3</dc:title>
+        <dcterms:hasPart rdf:resource="#item_35"/>
+        <dcterms:hasPart rdf:resource="https://pmc.ncbi.nlm.nih.gov/articles/PMC3465532/"/>
+        <dcterms:hasPart rdf:resource="https://ascopubs.org/doi/full/10.1200/JCO.2008.18.1370"/>
+        <dcterms:hasPart rdf:resource="https://pubmed.ncbi.nlm.nih.gov/39013134/"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_1">
+        <dc:title>Diagnostic Delay CBCS3</dc:title>
+        <dcterms:hasPart rdf:resource="https://link.springer.com/10.1007/s10552-023-01833-5"/>
+        <dcterms:hasPart rdf:resource="#item_17"/>
+        <dcterms:hasPart rdf:resource="#item_18"/>
+        <dcterms:hasPart rdf:resource="https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncr.32378"/>
+        <dcterms:hasPart rdf:resource="#item_21"/>
+        <dcterms:hasPart rdf:resource="https://jamanetwork.com/journals/jamaoncology/fullarticle/2793713"/>
+        <dcterms:hasPart rdf:resource="https://ascopubs.org/doi/10.1200/JCO.2008.18.1370"/>
+        <dcterms:hasPart rdf:resource="https://linkinghub.elsevier.com/retrieve/pii/S1546144021005494"/>
+        <dcterms:hasPart rdf:resource="https://link.springer.com/10.1245/s10434-022-11720-z"/>
+        <dcterms:hasPart rdf:resource="https://link.springer.com/10.1007/s10549-023-07164-y"/>
+        <dcterms:hasPart rdf:resource="https://link.springer.com/10.1007/s10549-020-06051-0"/>
+        <dcterms:hasPart rdf:resource="https://ascopubs.org/doi/full/10.1200/JCO.2012.41.9564"/>
+        <dcterms:hasPart rdf:resource="#item_32"/>
+        <dcterms:hasPart rdf:resource="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004500"/>
+        <dcterms:hasPart rdf:resource="#item_50"/>
+        <dcterms:hasPart rdf:resource="https://ascopubs.org/doi/10.1200/JCO.2015.62.2126"/>
+        <dcterms:hasPart rdf:resource="https://dx.doi.org/10.1093/jnci/djx135"/>
+        <dcterms:hasPart rdf:resource="https://link.springer.com/article/10.1007/s10549-014-2899-5"/>
+        <dcterms:hasPart rdf:resource="https://ascopubs.org/doi/10.1200/JCO.2012.46.1558"/>
+        <dcterms:hasPart rdf:resource="https://doi.org/10.1007/BF00694745"/>
+        <dcterms:hasPart rdf:resource="https://www.proquest.com/docview/204480346/abstract/AC095F5596FE4912PQ/1"/>
+        <dcterms:hasPart rdf:resource="https://www.proquest.com/docview/921583142/abstract/FEEF97C82BD04707PQ/1"/>
+        <dcterms:hasPart rdf:resource="https://www.proquest.com/docview/2299146734/abstract/547909B2E987446APQ/1"/>
+        <dcterms:hasPart rdf:resource="https://ascopubs.org/doi/10.1200/JCO.2005.04.7985"/>
+        <dcterms:hasPart rdf:resource="#item_74"/>
+    </z:Collection>
+</rdf:RDF>
