@@ -177,6 +177,10 @@ IF screencat = 0 or screencat = 1 THEN screen = 1 ; *under-screened ;
 ELSE IF screencat = 2  THEN screen = 0 ; *screening-adherent ;
 RUN ; 
 
+PROC FREQ DATA=data.DELAYS;
+	TABLES screencat;
+RUN;
+
 *\Look at regular care (Baseline questionnaire Question I6);
 
 PROC FREQ DATA=data.DELAYS;
@@ -508,7 +512,7 @@ RUN;
 *\Try running ordinal logistic regression using ROR_P_GROUP;
 
 PROC LOGISTIC DESCENDING DATA=data.DELAYS_NANO;
-	CLASS haas_method_detect / PARAM=REFERENCE;
+	CLASS haas_method_detect / PARAM=REFERENCE REF=FIRST;
 	MODEL ROR_P_Group = haas_method_detect / SCALE=NONE AGGREGATE;
 RUN;
 
@@ -534,39 +538,43 @@ RUN;
 
 Maybe break this up into 4 groups:
 1: >50 not delayed (doubly unexposed)
-2: >50 delayed
-3: <50 not delayed
-4: <50 delayed (doubly exposed)
+1: >50 delayed
+2: <50 not delayed
+3: <50 delayed (doubly exposed)
 
 Maybe start with defining delay via method of detection 
-Delayed = Lump detected
+Delayed = Lump detected or u/s or other
 Not delayed = mammogram
 
 Make new variables to represent these groups;
 
-PROC FREQ DATA=data.DELAYS_NANO;
+PROC FREQ DATA=data.DELAYS_nano;
 	TABLES dunn_detect*age_group/LIST;
 RUN;
 
-DATA data.DELAYS_NANO;
-	SET data.DELAYS_NANO;
+DATA data.DELAYS_nano;
+	SET data.DELAYS_nano;
 	LABEL delayed = "4 Levels for age and delay where delay=lump";
 
 	IF (dunn_detect=0 AND age_group=0)
 	THEN delayed = 0;
 
-	ELSE IF (dunn_detect=1 AND age_group=0)
+	IF (dunn_detect=1 AND age_group=0)
+	THEN delayed = 1;
+	
+	IF (dunn_detect=2 AND age_group=0)
 	THEN delayed = 1;
 
-	ELSE IF (dunn_detect=0 AND age_group=1)
+	IF (dunn_detect=0 AND age_group=1)
 	THEN delayed = 2;
 
-	ELSE IF (dunn_detect=1 AND age_group=1)
+	IF (dunn_detect=1 AND age_group=1)
 	THEN delayed = 3;
 
-	ELSE delayed = .;
-RUN;
+	IF (dunn_detect=2 AND age_group=1)
+	THEN delayed = 3;
 
+RUN;
 PROC FREQ DATA=data.DELAYS_NANO;
 	TABLES delayed;
 RUN;
@@ -677,6 +685,155 @@ PROC GENMOD DATA=data.DELAYS_NANO;
 	ESTIMATE 'RD <50 NOt Delayed v >50 Not Delayed' INT 0 delayed2 1;
 	ESTIMATE 'RD <50 Delayed v >50 Not Delayed' INT 0 delayed3 1;
 RUN;
+
+*\Table 1 stuff
+
+Make income20k var;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES income;
+RUN;
+
+*\Missing 159;
+
+DATA data.DELAYS;
+	SET data.DELAYS;
+	LABEL income20k = "Income levels based on 20k";
+
+	IF income IN (0,1,2,3)
+	THEN income20k = 0;
+
+	IF income IN (4,5)
+	THEN income20k = 1;
+
+	IF income IN (6,7)
+	THEN income20k = 2;
+
+	ELSE IF income = .
+	THEN income20k = .;
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES income20k;
+RUN;
+
+*\Education
+
+Any college
+HS grad/GED or less;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES EDUC;
+RUN;
+
+*\Missing 1;
+
+DATA data.DELAYS;
+	SET data.DELAYS;
+	LABEL education = "Binary any college (0) or more and then hs or less (1)";
+
+	IF EDUC IN (1,2,3,4)
+	THEN education = 1;
+
+	IF EDUC IN (5,6,7)
+	THEN education = 0;
+
+	ELSE IF EDUC = .
+	THEN education = .;
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES education;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_NANO;
+	TABLES age_group/MISSING;
+	TABLES race/MISSING;
+	TABLES income20k/MISSING;
+	TABLES education/MISSING;
+	TABLES P3D4A/MISSING;
+	TABLES haas_method_detect/MISSING;
+	TABLES reg_care/MISSING;
+	TABLES screencat/MISSING;
+	TABLES symptoms/MISSING;
+RUN;
+
+*\Copy delayed variabled over to main dataset
+
+0: >50 not delayed (doubly unexposed)
+1: >50 delayed
+2: <50 not delayed
+3: <50 delayed (doubly exposed)
+
+Delayed = Lump detected or u/s or other
+Not delayed = mammogram;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES dunn_detect*age_group/LIST;
+RUN;
+
+DATA data.DELAYS;
+	SET data.DELAYS;
+	LABEL delayed = "4 Levels for age and delay where delay=lump";
+
+	IF (dunn_detect=0 AND age_group=0)
+	THEN delayed = 0;
+
+	IF (dunn_detect=1 AND age_group=0)
+	THEN delayed = 1;
+	
+	IF (dunn_detect=2 AND age_group=0)
+	THEN delayed = 1;
+
+	IF (dunn_detect=0 AND age_group=1)
+	THEN delayed = 2;
+
+	IF (dunn_detect=1 AND age_group=1)
+	THEN delayed = 3;
+
+	IF (dunn_detect=2 AND age_group=1)
+	THEN delayed = 3;
+
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES delayed;
+RUN;
+
+*\Table 2;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES ESTSIZE*delayed/LIST;
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES NODESTAT*delayed/LIST;
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES STAGE*delayed/LIST;
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES GRADE*delayed/LIST;
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES ER*PATH_HER2*delayed/LIST;
+RUN;
+
+PROC FREQ DATA=data.DELAYS;
+	TABLES race*delayed/LIST;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_NANO;
+	TABLES delayed;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_NANO;
+	TABLES PAM50_Subtype*delayed / NOCOL NOROW;
+RUN;
+
 
 
 
