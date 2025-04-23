@@ -834,6 +834,43 @@ PROC FREQ DATA=data.DELAYS_NANO;
 	TABLES PAM50_Subtype*delayed / NOCOL NOROW;
 RUN;
 
+*\Make binary variable for ROR_S and ROR_P;
+
+PROC FREQ DATA=data.DELAYS_NANO;
+	TABLES ROR_S_Group;
+RUN;
+
+DATA data.DELAYS_NANO;
+	SET data.DELAYS_NANO;
+	LABEL ROR_S_binary = "ROR_S Binary Group (0=low/med 1=high)";
+
+	IF ROR_S_Group = "high"
+	THEN ROR_S_binary = 1;
+	ELSE ROR_S_binary = 0;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_NANO;
+	TABLES ROR_S_binary;
+RUN;
+
+*\Run logistic regression to find odds of having high ROR_S score
+Not delayed >/= 50 is ref;
+
+PROC GENMOD DATA=data.delays_nano DESCENDING;
+	MODEL ROR_S_binary = delayed1 delayed2 delayed3 / LINK=LOG DIST=BINOMIAL;
+	ESTIMATE "OR of High ROR_S score for Delayed >/=50" int 0 delayed1 1;
+	ESTIMATE "OR of High ROR_S score for Not Delayed <50" int 0 delayed2 1;
+	ESTIMATE "OR of High ROR_S score for Delayed <50" int 0 delayed3 1;
+RUN;
+
+*\Include regular care, screening adherent, symptoms;
+
+PROC GENMOD DATA=data.delays_nano DESCENDING;
+	MODEL ROR_S_binary = delayed1 delayed2 delayed3 symptoms reg_care screencat/ LINK=LOG DIST=BINOMIAL;
+	ESTIMATE "OR of High ROR_S score for Delayed >/=50" int 0 delayed1 1;
+	ESTIMATE "OR of High ROR_S score for Not Delayed <50" int 0 delayed2 1;
+	ESTIMATE "OR of High ROR_S score for Delayed <50" int 0 delayed3 1;
+RUN;
 
 
 
