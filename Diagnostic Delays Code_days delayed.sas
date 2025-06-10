@@ -374,9 +374,20 @@ RUN;
 
 *\Okay these are basically the same lol
 
-Look at P53 within each age group
+Look at P53;
 
-50yrs & older;
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES nanostring*days_delayed / LIST;
+	TABLES nanostring*age_group / LIST;
+	TABLES nanostring*delay_group / LIST;
+	TABLES P53_Subtype*days_delayed / LIST MISSING;
+	TABLES P53_Subtype*delay_group / LIST;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED;
+	CLASS P53_Subtype (REF='WT-like');
+	MODEL P53_Subtype = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
 
 PROC GENMOD DATA=data.DELAYS_MERGED;
 	CLASS P53_Subtype (REF='WT-like');
@@ -445,3 +456,545 @@ PROC GENMOD DATA=data.DELAYS_MERGED;
 	MODEL ROR_PT = days_delayed agesel race reg_care / DIST=NORMAL LINK=IDENTITY;
 RUN;
 
+*\Make TNBC variable using where borderline/weak positive are combined w positives;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES ERSTAT PRSTAT path_HER2;
+	TABLES ERSTAT*PRSTAT*PATH_HER2 / LIST MISSING;
+RUN;
+
+*\ 
+TNBC = 577
+Missing (any one of the 3 vars) = 30
+Not TNBC = 2391;
+
+DATA data.DELAYS_MERGED;
+	SET data.DELAYS_MERGED;
+	LABEL TNBC = '1 = TNBC, 0 = has some positive';
+
+	IF (ERSTAT = 2 AND PRSTAT = 2 AND PATH_HER2 = 2)
+	THEN TNBC = 1;
+
+	ELSE IF (ERSTAT = . OR PRSTAT = . OR PATH_HER2 = .)
+	THEN TNBC = .;
+
+	ELSE TNBC = 0;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES TNBC;
+	TABLES TNBC*days_delayed/ LIST MISSING;
+	TABLES TNBC*days_delayed/ LIST CHISQ;
+	TABLES TNBC*delay_group/ LIST MISSING;
+	TABLES TNBC*delay_group/ LIST CHISQ;
+RUN;
+
+*\Investigate method of detection against the pt IDs who were marked as missing for delay;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES P3D4A;
+	WHERE studyid IN (30569, 31394, 32626,
+32956,
+36146,
+36465,
+37598,
+38170,
+39215,
+39765,
+41789,
+44165,
+44451,
+45001,
+45430,
+45782,
+46640,
+47432,
+47608,
+48312,
+49808,
+51073,
+51799,
+52767,
+53680,
+54747,
+54780,
+57860,
+57937,
+59719,
+59994,
+60742,
+60775,
+62667,
+63800,
+64097,
+64856,
+68299,
+68662,
+70334,
+72930,
+73194,
+73931,
+74316,
+75713,
+76835,
+77308,
+78914,
+81587
+);
+RUN;
+
+*\Merge dataset w insurance variables. Check random variable to confirm transfer;
+
+PROC CONTENTS DATA=data.HASS_INSURANCE_053025;
+RUN;
+
+DATA data.DELAYS_MERGED;
+	MERGE data.DELAYS_MERGED data.HASS_INSURANCE_053025;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES P3I2;
+	TABLES P3I3A;
+	TABLES P3I3B;
+	TABLES P3I3C;
+	TABLES P3I3D;
+	TABLES P3I3E;
+	TABLES P3I3F;
+	TABLES P3I3A*P3I3B*P3I3C*P3I3D*P3I3E*P3I3F / LIST;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES P3I2*days_delayed;
+	TABLES P3I3A*days_delayed;
+	TABLES P3I3B*days_delayed;
+	TABLES P3I3C*days_delayed;
+	TABLES P3I3D*days_delayed;
+	TABLES P3I3E*days_delayed;
+	TABLES P3I3F*days_delayed;
+RUN;
+
+
+*\Create insurance variable w combos:
+No insurance (P3I2 = 2)
+Medicaid only (P3I3C = 1)
+Medicare only (P3I3D = 1)
+Medicare & Medicaid (P3I3C AND P3I3D = 1)
+Medicare & Private (P3I3D AND (P3I3A OR P3I3B) = 1)
+Private only (P3I3A OR P3I3B = 1)
+(From Durham et al, 2016)
+
+We'll set 'NA' to missing (P3I3F = 1)
+We'll also make missing those who only said they have 'any other insurance
+that covers part of their medical bills' (N=18);
+
+DATA data.DELAYS_MERGED;
+	SET data.DELAYS_MERGED;
+	LENGTH insurance $20;
+	LABEL insurance = 'Insurance at time of survey';
+
+	IF P3I2 = 2
+	THEN insurance = 'No Insurance';
+
+	ELSE IF P3I2 = 9
+	THEN insurance = 'Missing';
+
+	ELSE IF P3I3F = 1
+	THEN insurance = 'Missing';
+
+	ELSE IF (P3I3C = 1 OR (P3I3C = 1 AND P3I3E = 1)) AND P3I3A = 0 AND P3I3B = 0 AND P3I3D = 0 AND P3I3F = 0
+	THEN insurance = 'Medicaid Only';
+
+	ELSE IF (P3I3D = 1 OR (P3I3D = 1 AND P3I3E = 1)) AND P3I3A = 0 AND P3I3B = 0 AND P3I3C = 0 AND P3I3F = 0 	
+	THEN insurance = 'Medicare Only';
+	
+	ELSE IF ((P3I3D = 1 AND P3I3C = 1) OR (P3I3D = 1 AND P3I3C = 1 AND P3I3E =1)) AND P3I3A = 0 AND P3I3B = 0 AND P3I3F = 0
+	THEN insurance = 'Medicare & Medicaid';
+
+	ELSE IF ((P3I3D = 1 AND P3I3B = 1) OR (P3I3D = 1 AND P3I3B = 1 AND P3I3E = 1) OR
+	(P3I3D = 1 AND P3I3A = 1) OR (P3I3D = 1 AND P3I3A = 1 AND P3I3E = 1) OR (P3I3D = 1 AND P3I3B = 1 AND P3I3A = 1)) AND
+	P3I3C = 0 AND P3I3F = 0
+	THEN insurance = 'Medicare & Private';
+
+	ELSE IF P3I3E = 1 AND P3I3A = 0 AND P3I3B = 0 AND P3I3C = 0 AND P3I3D = 0 AND P3I3F = 0
+	THEN insurance = 'Other';
+
+	ELSE IF ((P3I3B = 1) OR (P3I3B = 1 AND P3I3E =1) OR (P3I3A = 1) OR (P3I3A = 1 AND P3I3B = 1)) AND P3I3C = 0 AND P3I3D = 0 AND P3I3F = 0
+	THEN insurance = 'Private only';
+
+	ELSE insurance = 'Medicaid & Private';
+
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES P3I2;
+	TABLES P3I3A*P3I3B*P3I3C*P3I3D*P3I3E*P3I3F / LIST;
+	TABLES insurance;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES insurance;
+	TABLES insurance*days_delayed / LIST CHISQ;
+RUN;
+
+*\ROR_PT dichotomous scores, RFD overall by delay v no delay and then by delays w/in age groups;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES ROR_PT_Group;
+RUN;
+
+DATA data.DELAYS_MERGED;
+	SET data.DELAYS_MERGED;
+	LABEL ROR_PTbinom = "1 = high, 0 = low/intermediate";
+
+	IF ROR_PT_Group IN ('low', 'med')
+	THEN ROR_PTbinom = 0;
+
+	ELSE IF ROR_PT_Group = 'high'
+	THEN ROR_PTbinom = 1;
+
+	ELSE ROR_PTbinom = .;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES ROR_PTbinom;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES ROR_PTbinom*days_delayed / LIST MISSING;
+	TABLES ROR_PTbinom*delay_group / LIST MISSING;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\RFD = 6.3% (2%, 10.6%);
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE age_group = 0;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\
+RFD = 7.3% (1.1%,13.5%)
+
+"Among those 50yrs and older, experiencing diagnostic delay is associated with a 7.3% increase 
+in probability of having a high ROR_PT score, regardless of age, race, or regular care."
+
+Younger than 50yrs;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE age_group = 1;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\
+RFD = 5.2% (-0.82%,11.2%)
+
+Look at PAM50 subtype;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES PAM50_Subtype;
+	TABLES PAM50_Subtype*days_delayed / LIST;
+	TABLES PAM50_Subtype*delay_group / LIST;
+RUN;
+
+DATA data.DELAYS_MERGED;
+	SET data.DELAYS_MERGED;
+	LABEL PAM50_Subtype_RFDbinom = '1 = basal-like 0 = luminal';
+
+	IF PAM50_Subtype = 'Basal'
+	THEN PAM50_Subtype_RFDbinom = 1;
+
+	ELSE IF PAM50_Subtype IN ('LumA', 'LumB')
+	THEN PAM50_Subtype_RFDbinom = 0;
+
+	ELSE PAM50_Subtype_RFDbinom = .;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES PAM50_Subtype_RFDbinom;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE age_group = 0;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE age_group = 1;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES odx_category;
+RUN;
+
+DATA data.DELAYS_MERGED;
+	SET data.DELAYS_MERGED;
+	LABEL odx_binary = '1 = High 0 = Low/Intermediate';
+
+	IF odx_category = 'High'
+	THEN odx_binary = 1;
+
+	ELSE IF odx_category IN ('Intermediate', 'Low')
+	THEN odx_binary = 0;
+
+	ELSE odx_category = .;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES odx_binary;
+	TABLES odx_binary*days_delayed / LIST;
+	TABLES odx_binary*delay_group / LIST;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE age_group = 0;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE age_group = 1;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\Explore Gaussian mixture models for OncotypeDX and ROR scores;
+
+PROC UNIVARIATE DATA=data.DELAYS_MERGED;
+	VAR odx_scaled_score;
+	WHERE delay_group NE .;
+RUN;
+
+PROC SGPLOT DATA=data.DELAYS_MERGED;
+	HISTOGRAM odx_scaled_score;
+	WHERE delay_group NE .;
+RUN;
+
+*\This distribution is really just skewed right;
+
+PROC UNIVARIATE DATA=data.DELAYS_MERGED;
+	VAR days_detection;
+RUN;
+
+PROC SGPLOT DATA=data.DELAYS_MERGED;
+	SCATTER X=odx_scaled_score Y=days_detection;
+	YAXIS MIN=0 MAX=250;
+RUN;
+
+*\What if I transformed the scores to the log scale?;
+
+DATA data.DELAYS_MERGED;
+	SET data.DELAYS_MERGED;
+	log_odxscores = log(odx_scaled_score);
+RUN;
+
+PROC SGPLOT DATA=data.DELAYS_MERGED;
+	HISTOGRAM log_odxscores;
+	WHERE delay_group NE .;
+RUN;
+
+*\That just made it left-skewed. Let's try square root;
+
+DATA data.DELAYS_MERGED;
+	SET data.DELAYS_MERGED;
+	sqrt_odxscores = sqrt(odx_scaled_score);
+RUN;
+
+PROC SGPLOT DATA=data.DELAYS_MERGED;
+	HISTOGRAM sqrt_odxscores;
+	WHERE delay_group NE .;
+RUN;
+
+*\That seems relatively normal. Let's run that in a regression model;
+
+ODS GRAPHICS ON;
+PROC REG DATA=data.DELAYS_MERGED PLOTS=ALL;
+	MODEL sqrt_odxscores = days_delayed agesel race reg_care;
+RUN; 
+ODS GRAPHICS OFF;
+
+PROC SGPLOT DATA=data.DELAYS_MERGED;
+	VBOX sqrt_odxscores / CATEGORY=days_delayed;
+RUN;
+
+*\What if I ran the exposure (days delayed) as a continuous variable?;
+
+ODS GRAPHICS ON;
+PROC REG DATA=data.DELAYS_MERGED PLOTS=ALL;
+	MODEL sqrt_odxscores = days_detection agesel race reg_care;
+RUN; 
+ODS GRAPHICS OFF;
+
+PROC SGPLOT DATA=data.DELAYS_MERGED;
+	REG Y=sqrt_odxscores X=days_detection;
+RUN;
+
+*\Because there are some extreme values for days_detection, what if we restricted to 360 days or less?;
+
+ODS GRAPHICS ON;
+PROC REG DATA=data.DELAYS_MERGED PLOTS=ALL;
+	MODEL sqrt_odxscores = days_detection agesel race reg_care;
+	WHERE days_detection <= 365;
+RUN; 
+ODS GRAPHICS OFF;
+
+PROC SGPLOT DATA=data.DELAYS_MERGED;
+	REG Y=sqrt_odxscores X=days_detection;
+	WHERE days_detection <= 365;
+RUN;
+
+*\Let's look at contour plots;
+
+PROC GCONTOUR DATA=data.DELAYS_MERGED;
+	PLOT days_detection*agesel = odx_scaled_score;
+	WHERE days_detection <= 75;
+RUN;
+
+*\Too many empty cells
+
+Pivoting to look at the women who fell into the 40-49yr bucket
+diagnosed prior to November 2009;
+
+PROC CONTENTS DATA=data.HASS_DIAGNOSIS_061025;
+RUN;
+
+PROC SORT DATA=data.DELAYS_MERGED;
+	BY STUDYID;
+RUN;
+
+PROC SORT DATA=data.HASS_DIAGNOSIS_061025;
+	BY STUDYID;
+RUN;
+
+DATA data.DELAYS_MERGED;
+	MERGE data.DELAYS_MERGED data.HASS_DIAGNOSIS_061025;
+	BY STUDYID;
+RUN;
+
+PROC FREQ DATA=data.DELAYS_MERGED;
+	TABLES Bef_Nov09;
+	TABLES Bef_Nov09_4049;
+	WHERE days_delayed NE .;
+RUN;
+
+*\Run analysis with by these two variables;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 1;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 0;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 1;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 0;
+	MODEL PAM50_Subtype_RFDbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\Nothing seems significant here...Let's look at P53;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	MODEL P53_subtype = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 1;
+	MODEL P53_subtype = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 0;
+	MODEL P53_subtype = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 1;
+	MODEL P53_subtype = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 0;
+	MODEL P53_subtype = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\The last model does have a significant value for the days_delayed beta.
+Based on this model, women who did NOT fall into the category of being between 40 and 49 diagnosed prior to November 2009
+were associated with a decreased probability of being P53 wild type (protective);
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 1;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 0;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 1;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 0;
+	MODEL ROR_PTbinom = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\The second and fourth models contain significant values for the days_delayed beta in terms of 
+actually being associated with a slight increase in probability of having a high ROR_PT score (harmful).
+Both of these models are looking at the women who were either diagnosed after Nov 2009
+or were not 40-49yrs diagnosed prior to Nov 2009;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 1;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09 = 0;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 1;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+PROC GENMOD DATA=data.DELAYS_MERGED DESCENDING;
+	WHERE Bef_Nov09_4049 = 0;
+	MODEL odx_binary = days_delayed agesel race reg_care/ DIST=BINOMIAL LINK=IDENTITY;
+RUN;
+
+*\Similarly, the second and fourth models are significant with respect to the beta for days_delayed
+showing a harmful association. AGainm both of these models are looking at the women who were either diagnosed after Nov 2009
+or were not 40-49yrs diagnosed prior to Nov 2009; 
